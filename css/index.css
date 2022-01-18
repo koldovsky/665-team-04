@@ -11,15 +11,3 @@
     --accen-color : rgb(244, 1, 6);
     scroll-behavior: smooth;
 }
-
-h2{
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 52px;
-    color: var(--main-color); 
-}
-.point{
-    font-family: 'Bebas Neue', cursive;
-    font-size: 52px;
-    color: var(--accen-color); 
-}
