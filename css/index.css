@@ -1,1 +1,25 @@
 @import url(new-arrivials.css);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-color:rgb(34, 35, 35);
+    --text-color: rgb(113, 116, 116);
+    --accen-color : rgb(244, 1, 6);
+    scroll-behavior: smooth;
+}
+
+h2{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 52px;
+    color: var(--main-color); 
+}
+.point{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 52px;
+    color: var(--accen-color); 
+}

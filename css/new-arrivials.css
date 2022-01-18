@@ -1,0 +1,23 @@
+.new__arrivials__top__text {
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    color: var(--main-color); 
+}
+.new__arrivials__button {
+    font-family: "PT Sans", sans-serif;
+    font-size: 15px;
+    color: var(--main-color); 
+    border: 2px solid;
+    padding: 1rem;
+    background-color: white;
+}
+.new__arrivials__link__shop{
+    text-decoration: none;
+}
+.new__arrivials__link {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    color: var(--text-color);
+}
+
+
