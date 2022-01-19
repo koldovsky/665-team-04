@@ -7,7 +7,7 @@
 .boys-img {
     object-fit: cover;
     object-position: 55% 13%;
-    min-height: 210px;
+    height: 210px;
 }
 
 .about-us__text {
