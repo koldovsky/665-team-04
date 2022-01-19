@@ -6,12 +6,14 @@
     color: var(--main-color); 
     margin-left: 1rem;
 }
+
 .point {
     font-family: 'Bebas Neue', cursive;
     font-size: 38px;
     color: var(--accent-color);
     font-weight: 400; 
 }
+
 .new__arrivials__divider {
     border-top: 2px solid rgb(224, 224, 224);
     padding: 10px 0;
@@ -25,6 +27,7 @@
     color: var(--text-color); 
     margin-left: 1rem;
 }
+
 .new__arrivials__button {
     font-family: "PT Sans", sans-serif;
     font-size: 15px;
@@ -35,9 +38,16 @@
     background-color: white;
     margin: 1rem;
 }
+
+.new__arrivials__preview-img {
+    height: 50%;
+    width: 50%;
+}
+
 .new__arrivials__link__shop{
     text-decoration: none;
 }
+
 .new__arrivials__link {
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
@@ -45,7 +55,8 @@
     color: var(--text-color);
     margin-top: 8px;
 }
-.new__arrivials__price{
+
+.new__arrivials__price {
     font-family: "PT Sans", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -53,4 +64,17 @@
     color: var(--accent-color); 
 }
 
+.new__arrivials__carousel__button__add {
+    font-family: "PT Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(255, 255, 255); 
+    padding: 1rem;
+    background-color: var(--main-color); 
+    border:none;
+}
 
+.new__arrivials__carousel__button__add:hover {
+	color: rgb(255, 255, 255); 
+	background-color: var(--accent-color);
+}
