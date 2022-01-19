@@ -7,7 +7,7 @@
 .boys-img {
     object-fit: cover;
     object-position: 55% 13%;
-    height: 210px;
+    min-height: 210px;
 }
 
 .about-us__text {
@@ -122,7 +122,6 @@
         margin-top: 0;
         margin-bottom: 0;
     }
-    
     .about-us__title {
         font-size: 52px;
     }
@@ -139,10 +138,5 @@
     }
     .banner__slogan {
         font-size: 24px;
-    }
-}
-/*@media (min-width: 320px) and (max-width: 980px){
-    .boys-img {
-        display: none;
     }
 }
