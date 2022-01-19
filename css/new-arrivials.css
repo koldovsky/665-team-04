@@ -9,7 +9,7 @@
 .point {
     font-family: 'Bebas Neue', cursive;
     font-size: 38px;
-    color: var(--accen-color);
+    color: var(--accent-color);
     font-weight: 400; 
 }
 .new__arrivials__divider {
@@ -50,7 +50,7 @@
     font-size: 18px;
     font-weight: 700;
     margin-top: 16px;
-    color: var(--accen-color); 
+    color: var(--accent-color); 
 }
 
 
