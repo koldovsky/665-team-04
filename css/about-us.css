@@ -1,0 +1,142 @@
+.about-us {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    justify-content: center;
+}
+.boys-img {
+    object-fit: cover;
+    object-position: 55% 13%;
+    height: 210px;
+}
+
+.about-us__text {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: var(--font-color-background);
+}
+
+.about-us__title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.about-us__slogan {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.about-us__description {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    line-height: 27.2px;
+}
+
+.social-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-buttons a {
+    border: 0.1em solid red;
+    background-color: var(--background-color);
+    color: var(--accent-color);
+    padding: 8px;
+    margin: 5px;
+}
+
+.social-buttons a:hover {
+    background-color: var(--accent-color);
+    cursor: pointer;
+    color: var(--background-color);
+}
+
+.banner-collections {
+    background-image: url("../img/girl-background.webp");
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.banner-text {
+    margin-left: 20px;
+}
+
+.banner__slogan {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: rgba(34,35,35,0.46);
+}
+
+.banner__title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 62px;
+    color: var(--main-color);
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.button-collections {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16.5px;
+    border: 0.1em solid var(--accent-color);
+    background-color: var(--accent-color);
+    padding: 18px 40px 18px 40px;
+}
+
+.button-collections:hover {
+    background-color: var(--background-color);
+    cursor: pointer;
+    border: 0.1em solid var(--background-color);
+}
+
+
+@media (min-width: 720px) {
+    .about-us {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .boys-img {
+        min-height: 720px;
+    }
+
+    .about-us__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .about-us__title {
+        font-size: 52px;
+    }
+    .banner-text {
+        margin-left: 40px;
+    }
+    .banner__title {
+        font-size: 124px;
+        width: 50%;
+        margin-bottom: 60px;
+    }
+    .banner-collections {
+        min-height: 800px;
+    }
+    .banner__slogan {
+        font-size: 24px;
+    }
+}

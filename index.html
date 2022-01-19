@@ -21,12 +21,12 @@
         <div class="header__top-row">
             <p class="header__top-row-header-text">We’ve extended our returns period to 30 days.</p>
             <div class="header__top-row-contacts">
-                <a href="mailto:workout@email.com" class="header__top-row-link-email">workout@email.com</a>
-                <a href="tel:+12345678900" class="header__top-row-link-phone">+1 (234) 567 89 00</a>
+                <a href="mailto:workout@email.com" class="header__top-row-link" >workout@email.com</a>
+                <a href="tel:+12345678900" class="header__top-row-link">+1 (234) 567 89 00</a>
             </div>
 
         </div>
-        <nav class="header__nav" style="background-color:magenta;">
+        <nav class="header__nav">
             <div class="header__nav-logo">
                 <img width="168" src="img/workout-logo.svg" alt="Workout logo">
             </div>
@@ -129,34 +129,35 @@
     <!--Block of Pavel end-->
 
     <!--Olena Sections "About us" start-->
-    <section id="about-us" class="about-us">
-        <div class="about__us-image">
-            <img width="500" src="img/boys.jpg" alt="Two Sport Boys">
+    <section id="about-us">
+        <div class="about-us">
+            <div class="about-us__image">
+                <img class="boys-img" src="img/boys.jpg" alt="Two Sport Boys">
+            </div>
+            <div class="about-us__text">
+                <h2 class="about-us__title">About us<span class="point">.</span></h2>
+                <div class="divider-line"></div>
+                <div class="about-us__slogan">Workout is an American fitness store created by fitness geeks for those who love sport and try to keep fit.</div>
+                <div class="about-us__description">
+                    <p>At Workout, we know that great results do not come from standing still. We all need to move, push boundaries, and achieve better results every day. The mission of our shop is to support you in this.</p>
+                    <br>
+                    <p>We're sure that everyday fitness can change your lives and bodies forever. And we keep selling comfortable and high-tech clothes and shoes for your outstanding results.</p>
+                </div>
+                <div class="social-buttons">
+                    <a target="_blank" href="https://www.facebook.com" ><i class="fab fa-facebook-f"></i></a>
+                    <a target="_blank" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.youtube.com"><i class="fab fa-youtube-square"></i></a>
+                </div>
+            </div>
         </div>
-        <article class="article__about-us">
-            <h2 class="about-us-header">About us<span class="red-point">.</span></h2>
-            <div class="divider-line"></div>
-            <div class="section__about-us-slogan">Workout is an American fitness store created by fitness geeks for
-                those who love sport and try to keep fit.</div>
-            <div class="section__about-us-text">
-                <p>At Workout, we know that great results do not come from standing still. We all need to move, push
-                    boundaries, and achieve better results every day. The mission of our shop is to support you in this.
-                </p>
-                <p>We're sure that everyday fitness can change your lives and bodies forever. And we keep selling
-                    comfortable and high-tech clothes and shoes for your outstanding results.
-                </p>
-            </div>
-            <div class="section__nav-icon">
-                <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
-                <a href="https://www.youtube.com"><i class="fab fa-youtube-square"></i></a>
-            </div>
-        </article>
     </section>
-    <section class="banner">
-        <div class="banner__slogan">TRENDING</div>
-        <div class="banner__title">NEW FITNESS COLLECTION<span class="big-red-point">.</span></div>
-        <a href="#collections" class="button-collections">Shop now</a>
+    <div class="banner-collections">
+        <div class="banner-text">
+            <div class="banner__slogan">Trending</div>
+            <div class="banner__title">New fitness collection<span class="red-point">.</span></div>
+            <a href="#collections" class="button-collections">Shop now <i class="fa fa-long-arrow-alt-right"></i></a>
+        </div>
+    </div>
     </section>
     <!--Olena Sections "About us" end-->
     <!--Mid season sale start-->
@@ -316,26 +317,28 @@
     <!--Olena Sections "Blog" start-->
     <div class="slider">
         <div class="logo-new-balance">
-            <img width="200" height="100" src="img/logo-new-balance.svg" alt="Logo New Balance">
+            <img src="img/logo-new-balance.svg" alt="Logo New Balance">
         </div>
         <div class="logo-reebok">
-            <img width="200" height="100" src="img/logo-reebok.svg" alt="Logo Reebok">
+            <img src="img/logo-reebok.svg" alt="Logo Reebok">
         </div>
         <div class="logo-adidas">
-            <img width="200" height="100" src="img/logo-adidas.svg" alt="Logo Adidas">
+            <img src="img/logo-adidas.svg" alt="Logo Adidas">
         </div>
         <div class="logo-nike">
-            <img width="200" height="100" src="img/logo-nike.svg" alt="Logo Nike">
+            <img src="img/logo-nike.svg" alt="Logo Nike">
         </div>
         <div class="logo-asics">
-            <img width="200" height="100" src="img/logo-asics.svg" alt="Logo Asics">
+            <img src="img/logo-asics.svg" alt="Logo Asics">
         </div>
     </div>
     <section id="blog" class="blog">
-        <h2 class="blog-header">Blog<span class="red-point">.</span></h2>
-        <div class="red-divider-line"></div>
-        <div class="section__blog-slogan">Read the latest articles from our experts.</div>
-        <div class="section__blog-text"></div>
+        <div class="blog__header">
+            <h2 class="blog__header-title">Blog<span class="point">.</span></h2>
+            <div class="light-divider-line"></div>
+            <p class="blog__header-slogan">Read the latest articles from our experts.</p>
+        </div>
+        <div class="blog__text">No blog posts yet...</div>
     </section>
     <!--Contact start-->
     <section class="contact-us" id="contact-us">

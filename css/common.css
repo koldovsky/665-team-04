@@ -3,8 +3,28 @@
     padding: 0;
 }
 :root{
+    --accent-color: rgb(244, 1, 6);
+    --background-color: #222323;
+    --font-color-background: rgb(255, 255, 255);
+    --light-color:rgb(224, 224, 224);
     --main-color:rgb(34, 35, 35);
     --text-color: rgb(113, 116, 116);
-    --accent-color : rgb(244, 1, 6);
+    box-size: border-box;
     scroll-behavior: smooth;
+}
+
+.point {
+    color: var(--accent-color);
+}
+
+.divider-line {
+    height: 2px;
+    width: 16%;
+    background-color: var(--accent-color);
+
+}
+
+img {
+    display: block;
+    width: 100%;
 }

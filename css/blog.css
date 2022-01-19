@@ -1,0 +1,10 @@
+.blog__header {
+    text-align: center;
+    padding:50px;
+}
+
+.blog__header-title {
+    font-family: Bebas Neue, cursive;
+    font-size: 38px;
+    font-weight:lighter;
+}

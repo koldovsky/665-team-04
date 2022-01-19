@@ -1,0 +1,18 @@
+.slider {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 50px 20px 50px 20px;
+}
+
+.slider div {
+    border: 2px solid var(--light-color);
+    height: 96px;
+    width: 185px;
+    padding: 20px;
+}
+
+.slider img {
+    max-height: 100px;
+    object-fit: contain;
+}
