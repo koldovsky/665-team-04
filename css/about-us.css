@@ -112,14 +112,17 @@
     }
 
     .boys-img {
-        height: 700px;
+        min-height: 720px;
     }
 
     .about-us__text {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-top: 0;
+        margin-bottom: 0;
     }
+    
     .about-us__title {
         font-size: 52px;
     }
