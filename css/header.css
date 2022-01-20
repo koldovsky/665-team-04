@@ -33,6 +33,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .header__nav-links {
     display: flex;
     padding-top: 30px;
@@ -47,4 +48,46 @@
 }
 .header__nav-links *:hover {
     text-decoration: underline;
+}
+.new-collections {
+    background-image: url(../img/new-collection-background.webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.new-collections-text {
+    padding: 0px 24px 0px 24px;
+}
+.shop-now {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16.5px;
+    border: 0.1em solid var(--accent-color);
+    background-color: var(--accent-color);
+    padding: 18px 40px 18px 40px;
+}
+.new-collections__slogan {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23px;
+    color:rgba(34,35,35,0.46);
+}
+.grey-heading{
+    font-size: 62px;
+    font-family: 'Bebas Neue', cursive;
+    color: var(--main-color);
+    font-weight: 400;
+}
+.red-heading {
+    color: var(--accent-color);
+}
+@media( min-width:992px) {
+.grey-heading {
+    font-size: 124px;
+}
 }
