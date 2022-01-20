@@ -2,3 +2,37 @@
     background-image: url(../img/original-brands-background.webp);
     margin-top: 50px;
 }
+.original__brands__top {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.62);
+    font-weight: 400; 
+}
+.original__brands__header {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 62px;
+    color: rgb(255, 255, 255);
+    font-weight: 400; 
+}
+.original__brands__advanteg {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+.original__brands__advanteg__icon {
+    height: 24px;
+    width: 20px;
+}
+.original__brands__advanteg__text {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;  
+}
+.original__brands__bottom {
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;  
+    margin: 1em;   
+}
