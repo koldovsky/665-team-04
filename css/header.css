@@ -1,8 +1,8 @@
 .header__top-row {
     background-color: rgb(214, 3, 7);
-    display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 15px;
+    display: none;
    
 }
 .header__top-row-header-text {
@@ -11,14 +11,12 @@
     font-size: 14px;
     font-weight: bold;  
 }
-.header__top-row-contacts {
+
+.header__top-row-link {
     font-family: 'PT Sans', sans-serif;
     color: #FFF;
     font-size: 14px;
-
-}
-.header__top-row-link {
-    color: #FFF;
+    font-weight: bold;
     padding-right: 20px;
 }
 .header__top-row-link:hover {
@@ -33,18 +31,30 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
-.header__nav-links {
-    display: flex;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-family: 'PT Sans', sans-serif;
-    
+.header__nav-logo {
+    width: 168px;
 }
+
 
 .header__nav-links * {
     color: #FFF;
     margin-right: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.ico {
+    border:  0.1em solid #FFF ;
+    
+    color: #FFF;
+    margin: 5px;
+    padding: 10px;
+   
+}
+.ico:hover {
+    background-color: #FFF;
+    color: var(--background-color);
 }
 .header__nav-links *:hover {
     text-decoration: underline;
@@ -52,7 +62,7 @@
 .new-collections {
     background-image: url(../img/new-collection-background.webp);
     background-size: cover;
-    background-position: center;
+    background-position: 5% 0%;
     min-height: 500px;
     display: flex;
     flex-direction: column;
@@ -60,7 +70,9 @@
     justify-content: center;
 }
 .new-collections-text {
-    padding: 0px 24px 0px 24px;
+    padding: 110px 24px 110px 24px;
+    max-width: 1200px;
+    margin: auto;
 }
 .shop-now {
     text-decoration: none;
@@ -82,6 +94,8 @@
     font-family: 'Bebas Neue', cursive;
     color: var(--main-color);
     font-weight: 400;
+    line-height: 62px;
+    padding: 16px 0px 50px 0px;
 }
 .red-heading {
     color: var(--accent-color);
@@ -89,5 +103,13 @@
 @media( min-width:992px) {
 .grey-heading {
     font-size: 124px;
+    line-height: 124px;
+}
+.header__top-row {
+    display: flex;
+}
+.new-collections-text {
+    padding-top: 210px;
+    padding-bottom: 210px;  
 }
 }
