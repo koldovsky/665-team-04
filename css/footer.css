@@ -1,4 +1,8 @@
 .footer__top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--background-color);
     color: var(--font-color-background);
     font-family: PT Sans, sans-serif;
@@ -35,13 +39,6 @@
     text-align: center;
 }
 
-.footer__nav-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .footer__nav-title {
     font-family: Bebas Neue, cursive;
     font-weight: 400;
@@ -49,6 +46,14 @@
     text-transform: uppercase;
     margin-bottom: 10px;
     margin-top: 40px;
+    text-align: center;
+}
+
+.footer__nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer__nav-links li {
@@ -60,6 +65,13 @@
 .footer__nav-links li a {
     text-decoration: none;
     color: var(--font-color-background);
+}
+
+.footer__nav-icons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer__social-buttons {
@@ -98,23 +110,38 @@
 }
 
 @media (min-width: 720px) {
+    .footer__top-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 30px;
+        padding-bottom: 20px;
+    }
+
     .footer__top {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
     }
-    .footer__top-container {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-}
+
+    .footer__nav-logo {
+        margin-top: 0;
+        margin-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    .footer__nav-text {
+        text-align: left;
+    }
+
     .footer__navigation {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-}
-    .footer__nav-container {
+    }
+
+    .footer__nav-links {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -130,9 +157,15 @@
     }
 
     .footer__nav-icons-container {
-     display: flex;
-     flex-direction: column;
-     justify-content: flex-end;
-     align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .footer__bottom-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
