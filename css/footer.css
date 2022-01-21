@@ -1,0 +1,108 @@
+.footer__top-container {
+    background-color: var(--background-color);
+    color: var(--font-color-background);
+    font-family: PT Sans, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer__bottom-container {
+    background-color: var(--background-color);
+    color: var(--font-color-background);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer__top-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__nav-logo {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    height: auto;
+    width: 180px;
+}
+
+.footer__nav-text {
+    color: rgba(255,255,255,0.65);
+    line-height: 27px;
+    text-align: center;
+}
+
+.footer__nav-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__nav-title {
+    font-family: Bebas Neue, cursive;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.footer__nav_links li {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.footer__nav_links li a {
+    text-decoration: none;
+    color: var(--font-color-background);
+}
+
+.footer__social-buttons {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer__social-buttons a {
+    border: 0.1em solid red;
+    background-color: var(--background-color);
+    color: var(--accent-color);
+    padding: 4px 8px 4px 8px;
+    margin: 5px;
+}
+
+.footer__social-buttons a:hover {
+    background-color: var(--accent-color);
+    cursor: pointer;
+    color: var(--background-color);
+}
+
+.thin-light-line {
+    height: 1px;
+    opacity: 0.3;
+    background-color: var(--light-color);
+    margin-bottom: 20px;
+}
+
+.footer__bottom-row-text {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: Bebas Neue, cursive;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (min-width: 720px) {
+    .footer__top-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+}

@@ -48,7 +48,7 @@
     border: 0.1em solid red;
     background-color: var(--background-color);
     color: var(--accent-color);
-    padding: 8px;
+    padding: 4px 8px 4px 8px;
     margin: 5px;
 }
 
@@ -61,8 +61,10 @@
 .banner-collections {
     background-image: url("../img/girl-background.webp");
     background-size: cover;
-    background-position: center;
+    background-position: 45% 50%;
     min-height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -70,13 +72,18 @@
 }
 
 .banner-text {
-    margin-left: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .banner__slogan {
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
     color: rgba(34,35,35,0.46);
+    margin-bottom: 20px;
 }
 
 .banner__title {
@@ -84,13 +91,18 @@
     font-size: 62px;
     color: var(--main-color);
     text-transform: uppercase;
-    margin-bottom: 100px;
+}
+
+.banner__button-play {
+    width: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .button-collections {
     text-decoration: none;
     text-align: center;
-    color: white;
+    color: var(--font-color-background);
     font-family: 'PT Sans', sans-serif;
     font-size: 16.5px;
     border: 0.1em solid var(--accent-color);
@@ -127,7 +139,16 @@
     }
     .banner-text {
         margin-left: 40px;
+        position: relative;
     }
+    .banner__button-play {
+        position: absolute;
+        text-align: center;
+        width: 8%;
+        top: 20%;
+        right: 40%;
+    }
+
     .banner__title {
         font-size: 124px;
         width: 50%;
