@@ -1,6 +1,6 @@
 .blog {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .blog__header {
@@ -46,4 +46,11 @@
     width: 100%;
     max-width: 1200px;
     margin-bottom: 70px;
+}
+
+@media (min-width: 720px) {
+    .blog {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }

@@ -1,4 +1,3 @@
-@import url(bootstrap.css);
 @import url(new-arrivials.css);
 @import url(common.css);
 @import url(original-brands.css);
@@ -9,3 +8,5 @@
 @import url(header.css);
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
 @import url("footer.css");
+@import url("contacts.css");
+@import url(bootstrap.css);

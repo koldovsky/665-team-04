@@ -319,7 +319,37 @@
     <!-- Pavel Shapovalenko block end-->
 
     <!--Olena Sections "Blog" start-->
-    <div class="slider">
+    <div id="carouse-brand" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/logo-new-balance.svg" class="d-block w-50 mx-auto" alt="Logo New Balance">
+            </div>
+            <div class="carousel-item">
+                <img src="img/logo-reebok.svg" class="d-block w-50 mx-auto" alt="Logo Reebok">
+            </div>
+            <div class="carousel-item">
+                <img src="img/logo-adidas.svg" class="d-block w-50 mx-auto" alt="Logo Adidas">
+            </div>
+            <div class="carousel-item">
+                <img src="img/logo-nike.svg" class="d-block w-50 mx-auto" alt="Logo Nike">
+            </div>
+            <div class="carousel-item">
+                <img src="img/logo-asics.svg" class="d-block w-50 mx-auto" alt="Logo Asics">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouse-brand" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouse-brand" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="map">
+
+    </div>
+    <!--<div class="slider">
         <div class="slider__brand">
             <img src="img/logo-new-balance.svg" alt="Logo New Balance">
         </div>
@@ -335,7 +365,8 @@
         <div class="slider__brand">
             <img src="img/logo-asics.svg" alt="Logo Asics">
         </div>
-    </div>
+    </div>-->
+
     <section id="blog">
         <div class="blog">
             <div class="blog__header">
@@ -346,11 +377,38 @@
             <div class="blog__text">No blog posts yet...</div>
         </div>
     </section>
-    <!--Contact start-->
-    <section class="contact-us" id="contact-us">
-    </section>
+    <!--Contact start -->
     <!--Contact end-->
-
+    <div class="subscription">
+        <div class="subscription__empty"></div>
+        <div class="subscription__conditions">
+            <div class="subscription__conditions-image">
+                <span class="image-size"><i class="fa fa-envelope-open-text"></i></span>
+            </div>
+            <div class="subscription__conditions-text"><span class="accent-color">10%</span> OFF YOUR FIRST ORDER. SIGN UP TO OUR NEWSLETTER TO GET THIS SPECIAL OFFER. </div>
+        </div>
+        <div class="form-info">
+            <form  class="subscription__form" method="post" action="">
+                <input class="subscription__form-mail" type="text" name="mail" placeholder="Your email address" required>
+                <button class="subscription__button" type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <div id="contacts" class="contacts">
+        <div class="contacts__info">
+            <h2 class="contacts__title">Contacts<span class="point">.</span></h2>
+            <p class="contacts__address">325 University Ave<br>Newark, NJ 07102</p>
+            <div class="contacts__phone">
+                <a href="tel:+12345678900" class="contacts__phone-link">+1 (234) 567 89 00</a>
+            </div>
+            <div class="contacts__mail">
+                <a href="mailto:workout@email.com" class="contacts__mail-link" >workout@email.com</a>
+            </div>
+        </div>
+        <div class="contacts__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9008.011578925478!2d-74.1859783475758!3d40.72951743872427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2537102f5f5df%3A0xc3d5dc357162b4ec!2zMzI1IFVuaXZlcnNpdHkgQXZlLCBOZXdhcmssIE5KIDA3MTAyLCDQodC_0L7Qu9GD0YfQtdC90ZYg0KjRgtCw0YLQuCDQkNC80LXRgNC40LrQuA!5e0!3m2!1suk!2sua!4v1642892230557!5m2!1suk!2sua" width="100%" height="700" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
     <!--Olena block footer start-->
     <footer class="footer">
         <div class="footer__top-container">
@@ -422,7 +480,7 @@
             </div>
         </div>
 </footer>
-
+<script src="js/bootstrap.js"></script>
 </body>
 
 </html>
