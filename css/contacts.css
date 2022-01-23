@@ -25,13 +25,13 @@
 }
 
 .image-size {
-    font-size: 50px;
-    opacity: 0.4;
+    min-width: 50px;
 }
 
 .subscription__conditions-text {
     font-family: PT Sans,sans-serif;
     font-size: 14px;
+    font-weight: bold;
     line-height: 25px;
     text-align: justify;
     padding-top: 10px;
