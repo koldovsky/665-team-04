@@ -28,3 +28,113 @@ img {
     display: block;
     width: 100%;
 }
+.divider {
+    height: 2px;
+    width: 18%;
+    background-color: var(--accent-color);
+}
+.wear-blocks-group-wrapper {
+    box-sizing: border-box;
+    padding-top: 90px;
+    padding-bottom: 60px;
+    margin: auto;
+    width: 90%;
+}
+
+.wear-section, .choose-us {
+    box-sizing:border-box;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.point {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
+    color: var(--accent-color);
+    font-weight: 400;
+}
+
+.new__arrivials__divider {
+    border-top: 2px solid rgb(224, 224, 224);
+    padding: 10px 0;
+    width: 33%;
+    margin-left: 1rem;
+}
+.wear-section_grid-top {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+.wear-section__block {
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.wear-section__inner-arivals {
+    background-image: url(../img/arrivals-img.svg);
+    background-size: cover;
+    background-position: center;
+    background-position: 14.53% 36.12%;
+    min-height: 300px;
+    height: 100%;
+    padding: 0 15px;
+
+}
+
+.wear-section__inner-trainers {
+    background-image: url(../img/trainers-img.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0);
+    min-height: 300px;
+    height: 100%;
+    padding: 0 15px;
+
+}
+
+.wear-section__inner-sale {
+    background-image: url(../img/hot-sale-img.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0);
+    min-height: 300px;
+    height: 100%;
+    padding: 0 15px;
+
+}
+
+.wear-section__text {
+    font-family: "Bebas Neue", cursive;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: var(--main-color);
+}
+
+.h2 {
+    box-sizing: border-box;
+    font-family: "Bebas Neue", cursive;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.divider {
+    box-sizing: border-box;
+    display: block;
+    background-color: var(--accent-color);
+    height: 2px;
+    max-width: 50px;
+    margin: 15px 0;
+}
+.p a{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--main-color);
+}

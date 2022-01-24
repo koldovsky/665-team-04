@@ -1,0 +1,62 @@
+.mid-season-sale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 30px 0px 30px;
+}
+
+.text-content {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 38px;
+  font-weight: 400;
+  color: var(--main-color);
+}
+
+.line {
+  height: 2px;
+  background-color: var(--text-color);
+  width: 30px;
+}
+
+.mid-season-sale-about {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 20px;
+  color: var(--text-color);
+  padding: 0px 24px 0px 24px;
+}
+
+.mid-season-sale-list-item {
+  margin: 20px 15px 20px 15px;
+}
+
+.mid-season-sale-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--text-color);
+  margin-top: 8px;
+}
+
+.mid-season-sale-price {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 16px;
+  color: var(--accent-color);
+}
+
+.button-add {
+  text-decoration: none;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--font-color-background);
+  padding: 1rem;
+  background-color: var(--background-color);
+  border: none;
+}
+
+.button-add:hover {
+  background-color: var(--accent-color);
+}
