@@ -3,15 +3,13 @@
     justify-content: space-between;
     padding: 15px;
     display: none;
-   
 }
 .header__top-row-header-text {
     font-family: 'PT Sans', sans-serif;
     color: #FFFFFF;
     font-size: 14px;
-    font-weight: bold;  
+    font-weight: bold;
 }
-
 .header__top-row-link {
     font-family: 'PT Sans', sans-serif;
     color: #FFF;
@@ -20,42 +18,44 @@
     padding-right: 20px;
 }
 .header__top-row-link:hover {
-    text-decoration: underline; 
-   
+    text-decoration: underline;
 }
-
 .header__nav {
     display: flex;
-    justify-content: space-around;
-    background-color: var(--main-color);
-    padding-top: 30px;
-    padding-bottom: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--main-color); 
 }
 .header__nav-logo {
     width: 168px;
+    margin-right: 50px;
+    margin: 25px;
 }
-
-
+.header__nav-links {
+    display: none;
+}
+.header__nav-icon {
+    display: none;
+}
 .header__nav-links * {
     color: #FFF;
     margin-right: 20px;
     font-family: 'PT Sans', sans-serif;
     font-size: 16px;
     font-weight: bold;
-
 }
 .ico {
-    border:  0.1em solid #FFF ;
-    
+    border: 0.1em solid #FFF;
+    line-height: 16px;
     color: #FFF;
     margin: 5px;
     padding: 10px;
-   
 }
 .ico:hover {
     background-color: #FFF;
     color: var(--background-color);
 }
+
 .header__nav-links *:hover {
     text-decoration: underline;
 }
@@ -70,26 +70,28 @@
     justify-content: center;
 }
 .new-collections-text {
-    padding: 110px 24px 110px 24px;
-    max-width: 1200px;
-    margin: auto;
+    padding: 110px 25px 110px 25px;
+    max-width: 1200px;  
 }
 .shop-now {
     text-decoration: none;
     text-align: center;
-    color: white;
+    color: var(--font-color-background);
     font-family: 'PT Sans', sans-serif;
     font-size: 16.5px;
-    border: 0.1em solid var(--accent-color);
     background-color: var(--accent-color);
     padding: 18px 40px 18px 40px;
+}
+.shop-now:hover {
+    background-color: var(--background-color);
+    border: 0.1em solid var(--background-color);
 }
 .new-collections__slogan {
     font-family: 'Bebas Neue', cursive;
     font-size: 23px;
-    color:rgba(34,35,35,0.46);
+    color: rgba(34, 35, 35, 0.46);
 }
-.grey-heading{
+.grey-heading {
     font-size: 62px;
     font-family: 'Bebas Neue', cursive;
     color: var(--main-color);
@@ -100,16 +102,36 @@
 .red-heading {
     color: var(--accent-color);
 }
-@media( min-width:992px) {
-.grey-heading {
-    font-size: 124px;
-    line-height: 124px;
+@media(min-width:992px) {
+    .grey-heading {
+        font-size: 124px;
+        line-height: 124px;
+    }
+    .header__top-row {
+        display: flex;
+    }
+    .header__logo-nav-links-container {
+        display: flex;
+        align-items: center;
+    }
+    .header__nav-links {
+        display: flex;
+    }
+    .header__nav-icon {
+        display: flex;
+    }
+    .header__nav {
+        justify-content: space-around;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .new-collections-text {
+        padding-top: 210px;
+        padding-bottom: 210px;
+    }
 }
-.header__top-row {
-    display: flex;
-}
-.new-collections-text {
-    padding-top: 210px;
-    padding-bottom: 210px;  
-}
+@media(min-width:768px) {
+    .grey-heading {
+    max-width: 66.6%;
+    }
 }
