@@ -25,7 +25,11 @@
 }
 
 .image-size {
-    min-width: 50px;
+    width: 50px;
+}
+
+input {
+    box-sizing: border-box;
 }
 
 .subscription__conditions-text {
@@ -35,6 +39,10 @@
     line-height: 25px;
     text-align: justify;
     padding-top: 10px;
+}
+
+.subscription__form-text {
+    width: 100%;
 }
 
 .subscription__form {
@@ -47,19 +55,24 @@
 }
 
 .subscription__form-mail {
+    display: block;
     background-color: rgba(34, 35, 35, 0.12);
+    border: 0;
     color: var(--main-color);
     width: 100%;
     margin-top: 12px;
-    height: 50px;
+    padding: 15px 26px;
+    font-family: PT Sans,sans-serif;
+    font-size: 15px;
 }
 
 .subscription__button {
     width: 100%;
     margin-top: 24px;
     margin-bottom: 50px;
-    height: 50px;
+    padding: 15px 26px;
     background-color: var(--accent-color);
+    border: 0;
     color: var(--font-color-background);
     font-family: PT Sans,sans-serif;
     font-size: 15px;
@@ -159,6 +172,11 @@
 
     .subscription__conditions-text {
         text-align: left;
+    }
+
+    .subscription__button:hover {
+        cursor: pointer;
+        background-color: var(--background-color);
     }
 }
 
