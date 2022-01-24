@@ -77,7 +77,7 @@ img {
 }
 
 .wear-section__inner-arivals {
-    background-image: url(img/arrivals-img.svg);
+    background-image: url(../img/arrivals-img.svg);
     background-size: cover;
     background-position: center;
     background-position: 14.53% 36.12%;
@@ -88,7 +88,7 @@ img {
 }
 
 .wear-section__inner-trainers {
-    background-image: url(img/trainers-img.png);
+    background-image: url(../img/trainers-img.png);
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0);
@@ -99,7 +99,7 @@ img {
 }
 
 .wear-section__inner-sale {
-    background-image: url(img/hot-sale-img.png);
+    background-image: url(../img/hot-sale-img.png);
     background-size: cover;
     background-position: center;
     background-color: rgba(0, 0, 0, 0);
