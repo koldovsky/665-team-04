@@ -2,12 +2,12 @@
 @import url(common.css);
 @import url(original-brands.css);
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap');
-@import url("about-us.css");
-@import url("slider.css");
-@import url("blog.css");
+@import url(about-us.css);
+@import url(blog.css);
 @import url(header.css);
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
-@import url("footer.css");
-@import url("contacts.css");
+@import url(footer.css);
+@import url(contacts.css);
 @import url(mid-season-sale.css);
+@import url(choose-us.css);
 @import url(bootstrap.css);
