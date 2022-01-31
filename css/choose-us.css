@@ -10,6 +10,18 @@
     -webkit-box-direction: normal;
 
 }
+.choose-us-header__divider {
+    display: flex;
+    justify-content: center;
+}
+.choose-us__divider {
+    display: block;
+    box-sizing: border-box;
+    margin: 15px 0;
+    height: 2px;
+    width: 8%;
+    background-color: #e0e0e0;
+}
 .choose-us__h2 {
     font-family: "Bebas Neue", cursive;
     font-size: 45px;

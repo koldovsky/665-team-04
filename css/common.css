@@ -26,13 +26,6 @@
     background-color: var(--accent-color);
 
 }
-.choose-us__divider {
-    box-sizing: border-box;
-    margin: 15px 0;
-    height: 2px;
-    width: 8%;
-    background-color: #e0e0e0;
-}
 img {
     display: block;
     width: 100%;
