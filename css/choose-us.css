@@ -1,4 +1,61 @@
-.choose-us__icon {
+.choose-us__img {
     height: 50px;
     width: 50px;
+}
+.choose-us__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+
+}
+.choose-us__h2 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 45px;
+    font-weight: 400;
+}
+.choose-us__block p {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:rgb(113, 116, 116);
+}
+.choose-us__block {
+    display: block;
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #e0e0e0; 
+    margin: 5px;
+    padding: 30px 20px;
+}
+.choose-us__grid-inner {
+    display: block;
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.choose-us__icon {
+    display: block;
+    display: flex;
+    box-sizing:border-box;
+    justify-content: center;
+    
+}
+@media (min-width: 767px) {
+    .choose-us__grid-inner {
+        box-sizing:border-box;
+        flex-direction:row;
+        justify-content: flex-start;
+}
+}
+.choose-us__box-header {
+    font-family: "Bebas Neue", cursive;
+    font-size: 23px;
+    font-weight: 400;
 }
