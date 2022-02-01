@@ -5,10 +5,17 @@
     justify-content: center;
 }
 
+.about-us__image {
+    position: relative;
+    padding-top: 65%;
+    overflow: hidden;
+}
+
 .boys-img {
+    position: absolute;
+    top: 0;
     object-fit: cover;
     object-position: 55% 13%;
-    height: 270px;
 }
 
 .about-us__text {
@@ -126,11 +133,14 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
+    .about-us__image {
+        position: static;
+        padding-top: 0;
+    }
     .boys-img {
+        position: static;
         min-height: 720px;
     }
-
     .about-us__text {
         display: flex;
         flex-direction: column;
