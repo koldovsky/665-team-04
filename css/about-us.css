@@ -4,10 +4,11 @@
     background-color: var(--background-color);
     justify-content: center;
 }
+
 .boys-img {
     object-fit: cover;
     object-position: 55% 13%;
-    height: 210px;
+    height: 270px;
 }
 
 .about-us__text {
@@ -120,7 +121,7 @@
     border: 0.1em solid var(--background-color);
 }
 
-@media (min-width: 720px) {
+@media (min-width: 780px) {
     .about-us {
         display: grid;
         grid-template-columns: 1fr 1fr;
