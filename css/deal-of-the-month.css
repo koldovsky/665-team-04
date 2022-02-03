@@ -1,0 +1,102 @@
+.deal-of-the-month__inner-text {
+    background-color: var(--background-color);
+    color: var(--font-color-background);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.deal-of-the-month__title {
+    text-transform: uppercase;
+    font-family: Bebas Neue,cursive;
+    font-size: 62px;
+    font-weight: 400;
+    padding-top: 80px;
+}
+
+.deal-of-the-month__title .point {
+    font-family: Bebas Neue,cursive;
+    font-size: 58px;
+    font-weight: 400;
+}
+
+.deal-of-the-month__promo-text {
+    text-transform: uppercase;
+    margin-top: 35px;
+    font-family: PT Sans,sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.special-text {
+    color: var(--accent-color);
+    font-size: 42px;
+}
+
+.strike-text {
+    font-size: 23px;
+    text-decoration: line-through;
+}
+
+.deal-of-the-month__text {
+    font-family: PT Sans,sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.deal-of-the-month__link {
+    font-family: PT Sans,sans-serif;
+    font-size: 15px;
+    color: var(--font-color-background);
+    margin-top: 35px;
+}
+
+.deal-of-the-month__link:hover {
+    text-decoration:underline;
+}
+
+.arrow {
+    display: inline;
+    height: 24px;
+    width: 24px;
+}
+
+.countdown {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    padding-bottom: 80px;
+}
+
+.left {
+    height: 110px;
+    width: 110px;
+    border: 1.5px solid var(--text-color);
+    border-radius: 7px;
+}
+
+.style-countdown {
+    font-family: Bebas Neue,cursive;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.countdown-text {
+    font-family: PT Sans,sans-serif;
+    font-size: 18px;
+    color: var(--font-color-background);
+    opacity: .54;
+    text-align: center;
+}
+
+.banner-sport-girl {
+    background-image: url("../img/sport-girl.webp");
+    background-size: cover;
+    background-position: 0% 23%;
+    min-height: 370px;
+}
