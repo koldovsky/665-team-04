@@ -122,4 +122,9 @@
     .deal-of-the-month__inner-text {
         padding: 40px 80px 40px 80px;
     }
+
+    .deal-of-the-month__title .point {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 124px;
+    }
 }
