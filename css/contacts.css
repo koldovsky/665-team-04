@@ -39,6 +39,7 @@ input {
     line-height: 25px;
     text-align: justify;
     padding-top: 10px;
+    text-transform: uppercase;
 }
 
 .subscription__form-text {

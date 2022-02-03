@@ -100,3 +100,14 @@
     background-position: 0% 23%;
     min-height: 370px;
 }
+
+@media (min-width: 780px) {
+    .deal-of-the-month {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .deal-of-the-month__title {
+        font-size: 124px;
+    }
+}
