@@ -13,11 +13,12 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
 .point {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 38px;
     color: var(--accent-color);
+    font-weight: 400;
 }
-
 .divider-line {
     box-sizing: border-box;
     margin: 15px 0;
@@ -47,30 +48,10 @@ img {
     display: block;
     box-sizing: border-box;
     margin: auto;
-    max-width: 1200px;
     width: 100%;
     padding-top: 25px;
     padding-bottom: 25px;
 }
-.choose-us {
-    display: block;
-    box-sizing: border-box;
-    margin: auto;
-    max-width: 1200px;
-    width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.point {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 38px;
-    color: var(--accent-color);
-    font-weight: 400;
-}
-
 .new__arrivials__divider {
     border-top: 2px solid rgb(224, 224, 224);
     padding: 10px 0;
@@ -87,7 +68,6 @@ img {
 @media (min-width: 767px) {
     .wear-section_grid-top {
         box-sizing:border-box;
-        display: grid;
         grid-template-columns: 2fr 1fr 1fr;
         gap: 20px;
         margin: auto;
@@ -102,6 +82,8 @@ img {
 }
 
 .wear-section__inner-arivals {
+    display: flex;
+    align-items: flex-end;
     background-image: url(../img/arrivals-img.svg);
     background-size: cover;
     background-position: center;
@@ -111,6 +93,8 @@ img {
 }
 
 .wear-section__inner-trainers {
+    display: flex;
+    align-items: flex-end;
     background-image: url(../img/trainers-img.png);
     background-size: cover;
     background-position: center;
@@ -120,6 +104,8 @@ img {
 }
 
 .wear-section__inner-sale {
+    display: flex;
+    align-items: flex-end;
     background-image: url(../img/hot-sale-img.png);
     background-size: cover;
     background-position: center;
@@ -127,68 +113,30 @@ img {
     min-height: 300px;
     height: 100%;
 }
-@media (max-width: 767px) {
-    .wear-section__text {
-        font-size: 38px;
-        line-height: 1.14;
-        letter-spacing: 0;
-    }
-    }
-    .wear-section__text {
-        color: var(--main-color);
-        font-family: "Bebas Neue", cursive;
-        font-size: 16px;
-        line-height: 1.2;
-        font-weight: 400;
-        padding: 170px 25px 25px;
-    }
-    .h2 {
-        box-sizing: border-box;
-        font-family: "Bebas Neue", cursive;
-        text-transform: uppercase;
-        font-weight: 400;
-    }
-    .p a{
-        font-family: 'PT Sans', sans-serif;
-        font-weight: bold;
-        text-transform: capitalize;
-        text-decoration: none;
-        color: var(--main-color);
-    }
-    .p a:hover {
-        text-decoration: underline;
-    }
-    .choose-us__header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-    
-    }
-    .choose-us__block {
-        display: block;
-        box-sizing:border-box;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        border: 2px solid #e0e0e0; 
-        margin: 5px;
-    
-    
-    }
-    .choose-us__grid-inner {
-        display: block;
-        box-sizing:border-box;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    @media (min-width: 767px) {
-        .choose-us__grid-inner {
-            box-sizing:border-box;
-            flex-direction:row;
-            justify-content: flex-start;
-    
-    }
-    }
+.wear-section__text {
+    color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    font-family: "Bebas Neue", cursive;
+    line-height: 1.2;
+    font-weight: 400;
+    padding: 30px;
+}
+
+.h2 {
+    font-family: "Bebas Neue", cursive;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.p a{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--main-color);
+}
+.p a:hover {
+    text-decoration: underline;
+}
