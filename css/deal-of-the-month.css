@@ -1,5 +1,8 @@
-.deal-of-the-month__inner-text {
+.deal-of-the-month {
     background-color: var(--background-color);
+}
+
+.deal-of-the-month__inner-text {
     color: var(--font-color-background);
     padding-left: 30px;
     padding-right: 30px;
@@ -66,7 +69,7 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 35px;
     padding-bottom: 80px;
@@ -97,18 +100,19 @@
 .banner-sport-girl {
     background-image: url("../img/sport-girl.webp");
     background-size: cover;
-    background-position: 0% 23%;
+    background-position: 15% 22%;
     min-height: 370px;
+    overflow: hidden;
 }
 
 @media (min-width: 780px) {
     .deal-of-the-month {
         display: grid;
         grid-template-columns: 1fr 1fr;
-    }
+}
 
     .deal-of-the-month__title {
-        font-size: 124px;
+        font-size: 93px;
     }
 
     .deal-of-the-month__promo-text {
@@ -116,15 +120,43 @@
 
     }
     .left {
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
     }
     .deal-of-the-month__inner-text {
-        padding: 40px 80px 40px 80px;
+        padding: 30px 50px 30px 50px;
     }
 
     .deal-of-the-month__title .point {
         font-family: 'Bebas Neue', cursive;
+        font-size: 93px;
+    }
+    .style-countdown {
+        font-size: 20px;
+    }
+    .countdown-text {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 980px) {
+    .deal-of-the-month__title {
         font-size: 124px;
+    }
+    .deal-of-the-month__title .point {
+        font-size: 124px;
+    }
+
+    .left {
+        height: 90px;
+        width: 90px;
+    }
+
+    .style-countdown {
+        font-size: 36px;
+    }
+
+    .countdown-text {
+        font-size: 18px;
     }
 }

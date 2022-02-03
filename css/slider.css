@@ -9,29 +9,40 @@
     justify-content: center;
     align-items: center;
     border: 2px solid var(--light-color);
-    width: 100%;
+    height: 300px;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .slider__brand img {
     object-fit: contain;
-    object-position: 50% 50%;
+    object-position: 50% 55%;
     box-sizing: border-box;
-    height: 240px;
-    width: 50%;
+    height: 100%;
+    width: 65%;
     text-align: center;
 }
 
 .arrow-button {
     width: 12px;
     height: 12px;
+    color: var(--background-color);
 }
 
 .images__carousel-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     width: 24px;
     height: 24px;
+    background-color: var(--background-color);
+    opacity: .85;
+}
+
+.arrow-forward {
+    transform: scaleX(-1);
 }
 
 .images__carousel-back {
