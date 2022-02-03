@@ -110,4 +110,16 @@
     .deal-of-the-month__title {
         font-size: 124px;
     }
+
+    .deal-of-the-month__promo-text {
+        font-size: 20px;
+
+    }
+    .left {
+        height: 100px;
+        width: 100px;
+    }
+    .deal-of-the-month__inner-text {
+        padding: 40px 80px 40px 80px;
+    }
 }

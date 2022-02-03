@@ -8,12 +8,11 @@
     function updateCountdown() {
         const currentDate = new Date();
         const secondsInHour = 60 * 60;
-        const secondsInDay = 60 * 60 * 24;
         const totalSeconds = Math.floor((startTime - currentDate) / 1000);
-        const leftDays = Math.floor(totalSeconds / secondsInDay);
-        const leftHours = Math.floor((totalSeconds - leftDays * secondsInDay) / secondsInHour);
-        const leftMinutes = Math.floor((totalSeconds - leftDays * secondsInDay - leftHours * secondsInHour) / 60);
-        const leftSeconds = Math.floor(totalSeconds - leftDays * secondsInDay - leftHours * secondsInHour - leftMinutes * 60);
+        const leftDays = Math.floor(totalSeconds / secondsInHour / 24);
+        const leftHours = Math.floor(totalSeconds / secondsInHour) % 24;
+        const leftMinutes = Math.floor(totalSeconds  / 60) % 60;
+        const leftSeconds = totalSeconds % 60;
         countdownDays.innerText = leftDays;
         countdownHours.innerText = leftHours;
         countdownMinutes.innerText = leftMinutes;
