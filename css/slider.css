@@ -1,6 +1,7 @@
 .images__carousel{
     position: relative;
     padding: 90px 24px 20px 24px;
+    margin: 0 20px 0 20px;
 }
 
 .slider__brand {
@@ -17,6 +18,9 @@
     object-fit: contain;
     object-position: 50% 50%;
     box-sizing: border-box;
+    height: 240px;
+    width: 50%;
+    text-align: center;
 }
 
 .arrow-button {
