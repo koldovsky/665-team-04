@@ -425,31 +425,13 @@
     <!-- Pavel Shapovalenko block end-->
 
     <!--Olena Sections "Blog" start-->
-    <div id="carouse-brand" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/logo-new-balance.svg" class="d-block w-50 mx-auto" alt="Logo New Balance">
-            </div>
-            <div class="carousel-item">
-                <img src="img/logo-reebok.svg" class="d-block w-50 mx-auto" alt="Logo Reebok">
-            </div>
-            <div class="carousel-item">
-                <img src="img/logo-adidas.svg" class="d-block w-50 mx-auto" alt="Logo Adidas">
-            </div>
-            <div class="carousel-item">
-                <img src="img/logo-nike.svg" class="d-block w-50 mx-auto" alt="Logo Nike">
-            </div>
-            <div class="carousel-item">
-                <img src="img/logo-asics.svg" class="d-block w-50 mx-auto" alt="Logo Asics">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouse-brand" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+    <div class="images__carousel">
+        <button class="images__carousel-back images__carousel-button">
+            <img class="arrow-button" src="img/arrow-button-back.svg" alt="Arrow back">
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouse-brand" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+        <div class="images__carousel-slide-container"></div>
+        <button class="images__carousel-forward images__carousel-button">
+            <img class="arrow-button" src="img/arrow-button-forward.svg" alt="Arrow forward">
         </button>
     </div>
     <section id="blog">
@@ -571,6 +553,7 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/burger-menu.js"></script>
     <script src="js/countdown.js"></script>
+    <script src="js/carousel.js"></script>
 </body>
 
 </html>
