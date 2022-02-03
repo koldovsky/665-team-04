@@ -1,78 +1,40 @@
 (function() {
-
     const slides = [
-                `<div class="product">
-                    <img class="product__img" src="t-shirt.jpg" alt="Baby Yoda">
-                    <h3 class="product__title">Baby Yoda</h3>
-                    <p class="product__description">Lorem ipsum .....</p>
-                    <div class="product__buttons">
-                        <button class="button button-card">Info</button>
-                        <button class="button button-card">10.99 - Buy</button>
+                    `<div class="discount__position t-shirts" >
+                    <div class="discount__position-text"><p>
+                        20% OFF ALL T-SHIRTS
+                    </p>
+                    <a href="#"><p class="discount__link-text">Shop Collection →</p></a>    
                     </div>
-                </div>`,
-                `<div class="product">
-                    <img class="product__img" src="img/banana.svg" alt="Banana">
-                    <h3 class="product__title">Banana</h3>
-                    <p class="product__description">Lorem ipsum .....</p>
-                    <div class="product__buttons">
-                        <button class="button button-card">Info</button>
-                        <button class="button button-card">9.99 - Buy</button>
+                    </div>`,
+                    `<div class="discount__position jeckets">
+                    <div class="discount__position-text"><p>
+                        30% OFF ALL JACKETS
+                    </p>
+                    <a href="#"><p class="discount__link-text">Shop Collection →</p></a>    
                     </div>
-                </div>`,
-                `<div class="product">
-                    <img class="product__img" src="img/girl.svg" alt="Girl">
-                    <h3 class="product__title">Girl</h3>
-                    <p class="product__description">Lorem ipsum .....</p>
-                    <div class="product__buttons">
-                        <button class="button button-card">Info</button>
-                        <button class="button button-card">8.99 - Buy</button>
+                    </div>`,
+                    `<div class="discount__position trainers">
+                    <div class="discount__position-text"><p>
+                        25% OFF ALL TRAINERS
+                    </p>
+                    <a href="#"><p class="discount__link-text">Shop Collection →</p></a>    
                     </div>
-                </div>`,
-                `<div class="product">
-                    <img class="product__img" src="img/viking.svg" alt="Viking">
-                    <h3 class="product__title">Viking</h3>
-                    <p class="product__description">Lorem ipsum .....</p>
-                    <div class="product__buttons">
-                        <button class="button button-card">Info</button>
-                        <button class="button button-card">6.99 - Buy</button>
-                    </div>
-                </div>`
+                    </div>`
+
     ];
-
     let currentSlideIdx = 0;
-
     function showCurrentSlide() {
-        const slideContainer = document.querySelector('.products__carousel-slide-container');
+        const slideContainer = document.querySelector(".discount__link_carusel_container");
         slideContainer.innerHTML = slides[currentSlideIdx];
-        if (window.innerWidth >= 640) {
-            const secondSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
-            slideContainer.innerHTML += slides[secondSlideIdx];
-            if (window.innerWidth >= 960) {
-                const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
-                slideContainer.innerHTML += slides[thirdSlideIdx];    
-            }
-        }
     }
-
-    function showNextSlide() {
-        currentSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
-        showCurrentSlide();
-    }
-
-    function showPrevSlide() {
-        currentSlideIdx = currentSlideIdx - 1 < 0 ? slides.length - 1 : currentSlideIdx - 1;
-        showCurrentSlide();
-    }
+function showNextSlide(){
+    currentSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
+    showCurrentSlide();
+}
 
     showCurrentSlide();
 
-    document.querySelector('.products__carousel-forward')
-         .addEventListener('click', showNextSlide);
+    setInterval(showNextSlide, 3000);
 
-    document.querySelector('.products__carousel-back')
-         .addEventListener('click', showPrevSlide);
-
-    /*setInterval(showNextSlide, 100000);
-
-    window.addEventListener('resize', showCurrentSlide);
-})(); 
+})();
