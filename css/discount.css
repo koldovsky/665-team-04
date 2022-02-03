@@ -14,27 +14,30 @@
 img {
 	display: block;
 	
-}.discount{
+}
+.discount{
 	box-sizing: border-box;
 	display: inline-grid;
   grid-template-columns: 1fr;
   background-size: contain;
   padding: 0px;
   margin: 0px;
-  width: 100%;
+  max-width: 1200px;
 
 }
    .discount__top
 	{
- 	background-image: url(../img/discount-body.jpg);
- 	height: 850px;
- 	width: 100%;
+ 	background-image: url(body.jpg);
+ 	height:240px;
+ 	width: 320px;
  	background-size: cover;
  	
  }
  .discount__top-text{
- 	padding: 245px 212px 24px 225px;
+ 	padding: 0px 0px 0px 0px;
+ 	margin-top: 0px;
  	font-size: 24px;
+   
    font-family: Bebas Neue,cursive;
    font-weight: 400; 
     
@@ -52,17 +55,16 @@ img {
 	color: rgba(255,255,255,0.62);
 	font-size: 24px;
 	font-family: Bebas Neue;
-	padding: 0px 0px 0px 0pxs;
+	margin: 0px 0px 0px 10px;
 	font-weight: normal;
 }
 
- 
  .discount__text{
  	color: #fff!important;
- 	font-size: 120px;
+ 	font-size: 24px;
     font-weight: 400;
-    padding:0;
-	margin: 0;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 15px;
  }
  #discount__special{
  	color: #f40106!important;
@@ -71,78 +73,104 @@ img {
  	display: inherit;
  	border-width: 0px;
  	border-style: outset;
- 	width: 8%;
- 	padding: 15px;
+ 	margin: 10px 239px 0px 15px;
+ 	padding: 3px;
  	background-color: white;
  	text-decoration: none;
  	color: black;
  	align-content: center;
- 	font-weight: normal;
+ 	font-size: 14px;
  	text-transform: capitalize;
- 	
  	
 }
 .discount__bottom:hover {
 	color: white;
 	background-color: black;
 }
- 
-
  .discount__bottom-text{
  	text-decoration: none;
  	color: black;
  	align-content: center;
  	font-weight: normal;
  	text-transform: capitalize;
-	 border: 0.1em solid;
-    padding: 18px 40px 18px 40px;
  }
- .discount__bottom-text:hover{
+ .link_text:hover{
  	color: white;
  }
- 
  
  .discount__link{
  	display: grid;
  	grid-template-columns: 1fr 1fr 1fr;
  }
  .t-shirts{
- 	background-size:cover;
- 	background-image: url(../img/discount-t-shirt.jpg);
- 	min-height: 342px;
- 	min-width: 567px;
- 	margin: 35px 15px 35px 15px;
+ 	background-size:contain;
+ 	background-image: url(t-shirt.jpg);
+ 	height: 200px;
+ 	width: 320px;
  }
  .jeckets{
- 	background-image: url(../img/discount-jeckets.jpg);
-	background-size:cover;
-	min-height: 342px;
- 	min-width: 567px;
- 	margin: 35px 15px 35px 15px;
+ 	background-image: url(jeckets.jpg);
+	background-size:inherit;
+	height: 200px;
+	width: 320px;	
  }
 .trainers{
-	background-image: url(../img/discount-trainers.jpg);
+	background-image: url(trainers.jpg);
 	background-size:cover;
-	min-height: 342px;
- 	min-width: 567px;
- 	margin: 35px 15px 35px 15px;
+	height: 200px;
+ 	width: 320px;
 }
 
  .discount__positon{
+ 	display: grid;
+ 	grid-template-columns: 1fr 1fr 1fr;
  	background-size:cover;
- 	min-height: 342px;
- 	min-width: 567px;
-
+ 	
+ 	margin: 35px 15px 35px 15px;
+ 	 border: 1px solid;
+ 	 box-sizing: border-box;
  }
  .discount__position-text{
- 	margin: 265px 25px 40px 25px;
- 	padding: 5px;
+ 	margin-: 0px 0px 0px 0px;
+ 	padding: 0px 0px 0px 0px;
  	border-style: hidden;
  	text-align: center;
  	font-family: Bebas Neue;
  	color: white;
  	font-weight: 400;
  	font-size: 40px;
- 	background-color: #242424;
+ 	background-color: RGBA(36,36,36,0.8);
  	}
-	 
+
+ 	.products__carousel {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+.product__img{
+	height: 225px;
+ 	width: 372px;
+ 	margin: 35px 15px 35px 15px;
+}
+.products__list{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.discount__link_carusel_container{
+padding: 0;
+margin: 0;
+width: 320px;
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+.discount__link_carusel{
+	padding: 0;
+	margin: 0;
+	width: 320px;
+	margin: -25px 0px 0px 0px;
+
+}
+.link_text{
+	text-decoration: none;
+	text-transform: lowercase;
+	color: black;
+}
