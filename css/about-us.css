@@ -153,12 +153,12 @@
     }
     .banner-text {
         position: relative;
-        padding: 0 15px;
+        padding: 0 30px;
     }
 
     .banner__title .point {
         font-family: 'Bebas Neue', cursive;
-        font-size: 124px;
+        font-size: 93px;
     }
 
     .banner__button-play {
@@ -166,20 +166,38 @@
         text-align: center;
         width: 70px;
         height: 70px;
-        top: 18%;
-        right: 42%;
+        top: 15%;
+        right: 45%;
     }
 
     .banner__title {
-        font-size: 124px;
+        font-size: 93px;
         width: 50%;
         margin-bottom: 60px;
     }
     .banner-collections {
-        min-height: 710px;
+        min-height: 650px;
         margin: auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
     .banner__slogan {
         font-size: 24px;
+    }
+}
+
+@media (min-width: 1020px) {
+    .banner__title {
+        font-size: 124px;
+    }
+    .banner__button-play {
+        top: 18%;
+        right: 46%;
+    }
+    .banner-collections {
+        min-height: 720px;
+    }
+    .banner-text {
+        padding: 0 60px;
     }
 }

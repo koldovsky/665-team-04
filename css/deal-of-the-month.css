@@ -124,7 +124,8 @@
         width: 70px;
     }
     .deal-of-the-month__inner-text {
-        padding: 30px 50px 30px 50px;
+        padding: 40px 60px 40px 60px;
+        line-height: 1.1;
     }
 
     .deal-of-the-month__title .point {
@@ -137,9 +138,12 @@
     .countdown-text {
         font-size: 16px;
     }
+    .banner-sport-girl {
+        background-position: 5% 22%;
+    }
 }
 
-@media (min-width: 980px) {
+@media (min-width: 1020px) {
     .deal-of-the-month__title {
         font-size: 124px;
     }
@@ -153,10 +157,17 @@
     }
 
     .style-countdown {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .countdown-text {
-        font-size: 18px;
+        font-size: 16px;
+    }
+    .deal-of-the-month__inner-text {
+        padding: 40px 70px 40px 70px;
+        line-height: 1.1;
+    }
+    .banner-sport-girl {
+        background-position: 0% 22%;
     }
 }
