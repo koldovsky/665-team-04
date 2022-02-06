@@ -1,14 +1,11 @@
 .discount{
 	box-sizing: border-box;
-    display: inline-grid;
-    grid-template-columns: 1fr;
-    background-size: contain;
+    background-size: cover;
     max-width: 1200px;
 }
 .discount__top{
  	background-image: url(../img/discount-body.jpg);
  	height:240px;
- 	width: 320px;
  	background-size: cover;
  }
  @media (min-width: 767px){.discount__top{
@@ -57,12 +54,12 @@
 	color: rgba(255,255,255,0.62);
 	font-size: 48px;
 	font-family: Bebas Neue;
-	margin: 0px 0px 0px 10px;
+	margin: 0px 0px 0px 0px;
 	font-weight: normal;
 }}
  .discount__text{
  	color: #fff!important;
- 	font-size: 24px;
+ 	font-size: 68px;
    font-weight: 400;
    margin: 0px 0px 0px 15px;
  }
