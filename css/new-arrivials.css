@@ -1,3 +1,8 @@
+#new__arrivials {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
 .new__arrivials__top__header {
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;

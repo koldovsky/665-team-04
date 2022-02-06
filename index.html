@@ -27,6 +27,9 @@
 
         </div>
         <nav class="header__nav">
+            <div class="burger" id="burger">
+                <img src="img/burger.jpg" alt="burger-icon">
+            </div>
             <div class="header__logo-nav-links-container">
                 <div class="header__nav-logo">
                     <img src="img/workout-logo.svg" alt="Workout logo">
@@ -331,7 +334,7 @@
         </div>
         <div class="new__arrivials__carousel">
             <div class="new__arrivials__carousel__img">
-                <div class="adidas__black__trainers">
+                <!-- <div class="adidas__black__trainers">
                     <img src="img/adidas-black-trainers.jpg" alt="adidas black trainers"
                         class="new__arrivials__preview-img">
                     <a class="new__arrivials__link__shop" href="#">
@@ -339,8 +342,8 @@
                     </a>
                     <p class="new__arrivials__price">$ 60.00</p>
                     <button class="new__arrivials__carousel__button__add">Add to Cart</button>
-                </div>
-                <div class="asics__jordan">
+                </div> -->
+                <!-- <div class="asics__jordan">
                     <img src="img/asics-jordan-2000.jpg" alt="asics jordan 2000" class="new__arrivials__preview-img">
                     <a class="new__arrivials__link__shop" href="#">
                         <p class="new__arrivials__link">asics jordan 2000</p>
@@ -366,18 +369,18 @@
                     <p class="new__arrivials__price">$ 62.00</p>
                     <button class="new__arrivials__carousel__button__add">Add to Cart</button>
                 </div>
-                <div class="puma__textile__runnig">
+                <div class="reebok__red__dusters">
                     <img src="img/reebok-red-duster.jpg" alt="Reebok Red Duster" class="new__arrivials__preview-img">
                     <a class="new__arrivials__link__shop" href="#">
                         <p class="new__arrivials__link">Reebok Red Duster</p>
                     </a>
                     <p class="new__arrivials__price">$ 60.00</p>
                     <button class="new__arrivials__carousel__button__add">Add to Cart</button>
-                </div>
+                </div> -->
             </div>
             <div class="new__arrivials__carousels__button__move">
-                <button class="new__arrivials__carousels__button__left">LEFT</button>
-                <button class="new__arrivials__carousels__button__right">RIGHT</button>
+                <button class="new__arrivials__carousels__button__back">BACK</button>
+                <button class="new__arrivials__carousels__button__forward">FORWARD</button>
             </div>
         </div>
     </section>
@@ -386,6 +389,7 @@
             <p class="original__brands__top">100% original brands</p>
             <h2 class="original__brands__header">keep fit with comfort.</h2>
             <div class="original__brands__advantages">
+                <div class="original__brands__advantages__point">
                 <div class="original__brands__advanteg">
                     <img src="img/original-brands-icons.svg" alt="icon" class="original__brands__advanteg__icon">
                     <p class="original__brands__advanteg__text">Top brands</p>
@@ -398,6 +402,7 @@
                     <img src="img/original-brands-icons.svg" alt="icon" class="original__brands__advanteg__icon">
                     <p class="original__brands__advanteg__text">Easy returns</p>
                 </div>
+                </div>
                 <p class="original__brands__bottom">Workout offers fitness clothing and footwear for those who want to
                     change their lives and bodies for better. We work only with the best sport brands to ensure that
                     your
@@ -405,7 +410,7 @@
                 </p>
                 <div class="original__brands__button">
                     <a class="original__brands__link" href="#">
-                        <p class="original__brands__link__text">Learn More</p>
+                        <p class="original__brands__link__text">Learn More →</p>
                     </a>
                 </div>
             </div>
@@ -421,31 +426,13 @@
     <!-- Pavel Shapovalenko block end-->
 
     <!--Olena Sections "Blog" start-->
-    <div id="carouse-brand" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/logo-new-balance.svg" class="d-block w-50 mx-auto" alt="Logo New Balance">
-            </div>
-            <div class="carousel-item">
-                <img src="img/logo-reebok.svg" class="d-block w-50 mx-auto" alt="Logo Reebok">
-            </div>
-            <div class="carousel-item">
-                <img src="img/logo-adidas.svg" class="d-block w-50 mx-auto" alt="Logo Adidas">
-            </div>
-            <div class="carousel-item">
-                <img src="img/logo-nike.svg" class="d-block w-50 mx-auto" alt="Logo Nike">
-            </div>
-            <div class="carousel-item">
-                <img src="img/logo-asics.svg" class="d-block w-50 mx-auto" alt="Logo Asics">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouse-brand" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+    <div class="images__carousel">
+        <button class="images__carousel-back images__carousel-button">
+            <img class="arrow-button" src="img/arrow-back.png" alt="Arrow back">
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouse-brand" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
+        <div class="images__carousel-slide-container"></div>
+        <button class="images__carousel-forward images__carousel-button">
+            <img class="arrow-button arrow-forward" src="img/arrow-back.png" alt="Arrow forward">
         </button>
     </div>
     <section id="blog">
@@ -567,6 +554,8 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/burger-menu.js"></script>
     <script src="js/countdown.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/new-arrivials-carousel.js"></script>
     <script type="text/javascript" src="discount_script.js"></script>
 </body>
 
