@@ -1,0 +1,203 @@
+.discount{
+	box-sizing: border-box;
+	display: inline-grid;
+  grid-template-columns: 1fr;
+  background-size: contain;
+  max-width: 1200px;
+}
+.discount__top{
+ 	background-image: url(body.jpg);
+ 	height:240px;
+ 	width: 320px;
+ 	background-size: cover;
+ }
+ @media (min-width: 767px){.discount__top{
+ 	display: flex;
+ 	justify-content: center;
+ }}
+ @media (min-width: 900px){.discount__top{
+ 	display: flex;
+ 	justify-content: center;
+ }}
+ @media (min-width: 767px){.discount__top{
+ 	min-height:580px;
+ 	min-width: 767px;}
+ }
+ @media (min-width: 900px){.discount__top{
+ 	min-height:429px;
+ 	min-width: 900px;
+ 	background-size: contain;
+ }}
+ .discount__top-text{
+ 	font-size: 24px;
+   font-family: Bebas Neue,cursive;
+   font-weight: 400; 
+ }
+@media (min-width: 767px){.discount__top-text{
+	padding: 54px 0px 0px 47px;
+}}
+ .discount__link-text{
+ 	text-decoration: none;
+	color: black;
+	font-family: 'PT Sans', sans-serif,cursive;
+	text-transform: capitalize;
+   font-size: 24px; 
+   color: white;
+ }
+ .discount__link-text:hover{
+ 	text-decoration: underline;
+ }
+.discount__month-text{
+	color: rgba(255,255,255,0.62);
+	font-size: 24px;
+	font-family: Bebas Neue;
+	font-weight: normal;
+}
+@media (min-width: 767px){.discount__month-text{
+	color: rgba(255,255,255,0.62);
+	font-size: 48px;
+	font-family: Bebas Neue;
+	margin: 0px 0px 0px 10px;
+	font-weight: normal;
+}}
+ .discount__text{
+ 	color: #fff!important;
+ 	font-size: 24px;
+   font-weight: 400;
+   margin: 0px 0px 0px 15px;
+ }
+ @media (min-width: 767px){.discount__text{
+ 	color: #fff!important;
+ 	font-size: 68px;
+   font-weight: 400;
+   margin: 0px 0px 0px 15px;
+ }}
+ #discount__special{
+ 	color: #f40106!important;
+ }
+ .discount__bottom{
+ 	display: inherit;
+ 	border-width: 0px;
+ 	border-style: outset;
+ 	margin: 10px 236px 0px 15px;
+ 	background-color: white;
+ 	text-decoration: none;
+ 	color: black;
+ 	align-content: center;
+ 	font-size: 14px;
+ 	text-transform: capitalize;
+}
+@media (min-width: 767px){.discount__bottom{
+	display: inherit;
+ 	border-width: 0px;
+ 	border-style: outset;
+ 	margin: 0px 635px 0px 15px;
+ 	background-color: white;
+ 	text-decoration: none;
+ 	color: black;
+ 	align-content: center;
+ 	font-size: 20px;
+ 	text-transform: capitalize;
+}}
+.discount__bottom:hover {
+	color: white;
+	background-color: black;
+}
+ .discount__bottom-text{
+ 	text-decoration: none;
+ 	color: black;
+ 	align-content: center;
+ 	font-weight: normal;
+ 	text-transform: capitalize;
+ }
+ .link_text:hover{
+ 	color: white;
+ }
+ .t-shirts{
+ 	background-size:cover;
+ 	background-image: url(t-shirt.jpg);
+ 	height: 200px;
+ 	width: 320px;
+ }
+ @media (min-width: 767px){.t-shirts{
+	width: 767px;
+	height: 320px;
+}}
+@media (min-width: 900px){.t-shirts{
+	width: 900px;
+	height: 320px;
+}}
+ .jeckets{
+ 	background-image: url(jeckets.jpg);
+	background-size:cover;
+	height: 200px;
+	width: 320px;	
+ }
+ @media (min-width: 767px){.jeckets{
+	width: 767px;
+	height: 320px;
+}}
+@media (min-width: 900px){.jeckets{
+	width: 900px;
+	height: 320px;
+}}
+.trainers{
+	background-image: url(trainers.jpg);
+	background-size:cover;
+	height: 200px;
+ 	width: 320px;
+}
+@media (min-width: 767px){.trainers{
+	width: 767px;
+	height: 320px;
+}}
+@media (min-width: 900px){.trainers{
+	width: 900px;
+	height: 320px;
+}}
+ .discount__positon{
+ 	display: grid;
+ 	grid-template-columns: 1fr 1fr 1fr;
+ 	}
+ .discount__position-text{
+ 	border-style: hidden;
+ 	text-align: center;
+ 	font-family: Bebas Neue;
+ 	color: white;
+ 	font-weight: 400;
+ 	font-size: 40px;
+ 	background-color: RGBA(36,36,36,0.8);
+ 	}
+ .products__carousel {
+   display: grid;
+   grid-template-columns: 1fr 8fr 1fr;
+}
+
+.discount__link_carusel_container{
+width: 320px;
+}
+@media (min-width: 767px){.discount__link_carusel_container{
+	width: 767px;
+}}
+@media (min-width: 900px){.discount__link_carusel_container{
+	width: 900px;
+
+}}
+.discount__link_carusel{
+	width: 320px;
+	
+}
+@media (min-width: 767px){.discount__link_carusel{
+	width: 767px;
+}}
+@media (min-width: 900px){.discount__link_carusel{
+	width: 900px;
+}}
+.link_text{
+	text-decoration: none;
+	color: black;
+	font-family: 'PT Sans', sans-serif,cursive;
+	font-size: 10px;
+	text-transform: capitalize;
+	padding: 5px;
+}
