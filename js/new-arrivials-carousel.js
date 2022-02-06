@@ -1,4 +1,4 @@
-debugger;
+
 (function () {
     const slides = [
       `<div class="adidas__black__trainers">
