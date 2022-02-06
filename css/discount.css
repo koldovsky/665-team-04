@@ -1,12 +1,12 @@
 .discount{
 	box-sizing: border-box;
-	display: inline-grid;
-  grid-template-columns: 1fr;
-  background-size: contain;
-  max-width: 1200px;
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    background-size: contain;
+    max-width: 1200px;
 }
 .discount__top{
- 	background-image: url(body.jpg);
+ 	background-image: url(img/discount-body.jpg);
  	height:240px;
  	width: 320px;
  	background-size: cover;
@@ -115,7 +115,7 @@
  }
  .t-shirts{
  	background-size:cover;
- 	background-image: url(t-shirt.jpg);
+ 	background-image: url(img/discount-t-shirt.jpg);
  	height: 200px;
  	width: 320px;
  }
@@ -128,7 +128,7 @@
 	height: 320px;
 }}
  .jeckets{
- 	background-image: url(jeckets.jpg);
+ 	background-image: url(img/discount-jeckets.jpg);
 	background-size:cover;
 	height: 200px;
 	width: 320px;	
@@ -142,7 +142,7 @@
 	height: 320px;
 }}
 .trainers{
-	background-image: url(trainers.jpg);
+	background-image: url(img/discount-trainers.jpg);
 	background-size:cover;
 	height: 200px;
  	width: 320px;
