@@ -1,19 +1,25 @@
 .original__brands {
     background-image: url(../img/original-brands-background.webp);
     margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-position: 90% 50%;
+    height: 650px;
 }
 
 .original__brands__wrapper {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .original__brands__top {
     font-family: 'Bebas Neue', cursive;
     font-size: 22px;
     color: rgba(255, 255, 255, 0.62);
-    font-weight: 400; 
+    font-weight: 400;
 }
 
 .original__brands__header {
@@ -56,16 +62,19 @@
 }
 
 .original__brands__button {
-    width: 20%;
+    width: 120px;
+    height: 40px;
     border: 2px solid rgb(255, 255, 255);
-}
-
-.original__brands__link__text {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1em;
+}
+
+.original__brands__link__text {
     font-family: "PT Sans", sans-serif;
     font-size: 16.5px;
+    font-weight: 700;
     color:rgb(255, 255, 255)
 }
 @media (min-width: 780px) {
