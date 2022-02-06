@@ -1,45 +1,42 @@
 .discount{
-	box-sizing: border-box;
-    background-size: cover;
-    max-width: 1200px;
+    box-sizing: border-box;
+    position: relative;
 }
 .discount__top{
  	background-image: url(../img/discount-body.jpg);
- 	height:240px;
  	background-size: cover;
+    position: relative;
  }
- @media (min-width: 767px){.discount__top{
- 	display: flex;
- 	justify-content: center;
+ @media (min-width: 723px){.discount__top{
+ 	min-height: 400px;
  }}
  @media (min-width: 900px){.discount__top{
- 	display: flex;
- 	justify-content: center;
+ 	min-height: 560px;
  }}
- @media (min-width: 767px){.discount__top{
- 	min-height:580px;
- 	min-width: 767px;}
- }
- @media (min-width: 900px){.discount__top{
- 	min-height:429px;
- 	min-width: 900px;
- 	background-size: contain;
- }}
+ @media (min-width: 1200px){.discount__top{
+    min-height: 1250px;
+}}
+
  .discount__top-text{
- 	font-size: 24px;
-   font-family: Bebas Neue,cursive;
-   font-weight: 400; 
+    font-size: 24px;
+    font-family: Bebas Neue,cursive;
+    font-weight: 400; 
  }
 @media (min-width: 767px){.discount__top-text{
 	padding: 54px 0px 0px 47px;
 }}
+@media (min-width: 900px){.discount__top-text{
+	padding: 53px 0px 0px 90px;
+}}
+@media (min-width: 1200px){.discount__top-text{
+	padding: 280px 0px 0px 130px;
+}}
  .discount__link-text{
- 	text-decoration: none;
-	color: black;
 	font-family: 'PT Sans', sans-serif,cursive;
 	text-transform: capitalize;
-   font-size: 24px; 
-   color: white;
+    font-size: 24px; 
+    color: white;
+    text-decoration: none;
  }
  .discount__link-text:hover{
  	text-decoration: underline;
@@ -54,41 +51,45 @@
 	color: rgba(255,255,255,0.62);
 	font-size: 48px;
 	font-family: Bebas Neue;
-	margin: 0px 0px 0px 0px;
 	font-weight: normal;
 }}
  .discount__text{
  	color: #fff!important;
  	font-size: 68px;
    font-weight: 400;
-   margin: 0px 0px 0px 15px;
  }
  @media (min-width: 767px){.discount__text{
  	color: #fff!important;
  	font-size: 68px;
    font-weight: 400;
-   margin: 0px 0px 0px 15px;
  }}
+ @media (min-width: 960px){.discount__text{
+    color: #fff!important;
+    font-size: 128px;
+  font-weight: 400;
+}}
+@media (min-width: 1200px){.discount__text{
+    color: #fff!important;
+    font-size: 160px;
+  font-weight: 400;
+}}
  #discount__special{
  	color: #f40106!important;
  }
  .discount__bottom{
- 	display: inherit;
- 	border-width: 0px;
- 	border-style: outset;
- 	margin: 10px 236px 0px 15px;
  	background-color: white;
  	text-decoration: none;
  	color: black;
- 	align-content: center;
  	font-size: 14px;
  	text-transform: capitalize;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
 }
 @media (min-width: 767px){.discount__bottom{
-	display: inherit;
- 	border-width: 0px;
- 	border-style: outset;
- 	margin: 0px 635px 0px 15px;
  	background-color: white;
  	text-decoration: none;
  	color: black;
@@ -113,44 +114,39 @@
  .t-shirts{
  	background-size:cover;
  	background-image: url(../img/discount-t-shirt.jpg);
- 	height: 200px;
- 	width: 320px;
+ 	min-height: 200px;
+    padding: 10px;
+ 	
  }
  @media (min-width: 767px){.t-shirts{
-	width: 767px;
-	height: 320px;
+	min-height: 250px;
 }}
 @media (min-width: 900px){.t-shirts{
-	width: 900px;
-	height: 320px;
+	min-height: 350px;
 }}
  .jeckets{
  	background-image: url(../img/discount-jeckets.jpg);
 	background-size:cover;
-	height: 200px;
-	width: 320px;	
+	min-height: 200px;
+    padding: 10px 10px 10px 10px;
  }
  @media (min-width: 767px){.jeckets{
-	width: 767px;
-	height: 320px;
+	
 }}
 @media (min-width: 900px){.jeckets{
-	width: 900px;
-	height: 320px;
+	
 }}
 .trainers{
 	background-image: url(../img/discount-trainers.jpg);
 	background-size:cover;
-	height: 200px;
- 	width: 320px;
+	min-height: 200px;
+    padding: 10px;
 }
 @media (min-width: 767px){.trainers{
-	width: 767px;
-	height: 320px;
+
 }}
 @media (min-width: 900px){.trainers{
-	width: 900px;
-	height: 320px;
+
 }}
  .discount__positon{
  	display: grid;
@@ -164,31 +160,29 @@
  	font-weight: 400;
  	font-size: 40px;
  	background-color: RGBA(36,36,36,0.8);
- 	}
- .products__carousel {
-   display: grid;
-   grid-template-columns: 1fr 8fr 1fr;
 }
 
 .discount__link_carusel_container{
-width: 320px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 @media (min-width: 767px){.discount__link_carusel_container{
-	width: 767px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }}
 @media (min-width: 900px){.discount__link_carusel_container{
-	width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;	
 
 }}
 .discount__link_carusel{
-	width: 320px;
 	
 }
 @media (min-width: 767px){.discount__link_carusel{
-	width: 767px;
+	
 }}
 @media (min-width: 900px){.discount__link_carusel{
-	width: 900px;
+	
 }}
 .link_text{
 	text-decoration: none;
