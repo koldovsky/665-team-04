@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/discount.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/splide.min.css">
     <title>Sport Clothes Store</title>
 </head>
 
@@ -426,14 +426,36 @@
     <!-- Pavel Shapovalenko block end-->
 
     <!--Olena Sections "Blog" start-->
-    <div class="images__carousel">
-        <button class="images__carousel-back images__carousel-button">
-            <img class="arrow-button" src="img/arrow-back.png" alt="Arrow back">
-        </button>
-        <div class="images__carousel-slide-container"></div>
-        <button class="images__carousel-forward images__carousel-button">
-            <img class="arrow-button arrow-forward" src="img/arrow-back.png" alt="Arrow forward">
-        </button>
+    <div class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <div class="slider__brand">
+                    <img src="img/logo-new-balance.svg" alt="Logo New Balance">
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="slider__brand">
+                    <img src="img/logo-reebok.svg" alt="Logo Reebok">
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="slider__brand">
+                    <img src="img/logo-adidas.svg" alt="Logo Adidas">
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="slider__brand">
+                        <img src="img/logo-nike.svg" alt="Logo Nike">
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="slider__brand">
+                        <img src="img/logo-asics.svg" alt="Logo Asics">
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
     <section id="blog">
         <div class="blog">
@@ -551,9 +573,9 @@
             </div>
         </div>
     </footer>
-    <script src="js/bootstrap.js"></script>
     <script src="js/burger-menu.js"></script>
     <script src="js/countdown.js"></script>
+    <script src="js/splide.min.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/new-arrivials-carousel.js"></script>
     <script type="text/javascript" src="discount_script.js"></script>

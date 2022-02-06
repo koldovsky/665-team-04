@@ -192,12 +192,12 @@
     }
     .banner__button-play {
         top: 18%;
-        right: 46%;
+        right: 45%;
     }
     .banner-collections {
         min-height: 720px;
     }
     .banner-text {
-        padding: 0 60px;
+        padding: 0 40px;
     }
 }
