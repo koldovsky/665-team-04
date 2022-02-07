@@ -52,6 +52,7 @@
     font-family: PT Sans,sans-serif;
     font-size: 15px;
     color: var(--font-color-background);
+    text-decoration: none;
     margin-top: 35px;
 }
 
@@ -59,10 +60,11 @@
     text-decoration:underline;
 }
 
-.arrow-span {
-    text-decoration: none;
-    width: 24px;
-    height: 24px;
+.deal-of-the-month__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
 }
 
 .countdown {
