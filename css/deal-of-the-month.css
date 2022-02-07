@@ -61,30 +61,31 @@
 
 .arrow-span {
     text-decoration: none;
+    width: 24px;
+    height: 24px;
 }
 
 .countdown {
     display: flex;
     flex-direction: row;
-    gap: 10px;
     justify-content: space-around;
     align-items: center;
+    gap: 5px;
     margin-top: 35px;
-    padding-bottom: 80px;
+    width: 100%;
 }
 
-.left {
-    height: 110px;
-    width: 110px;
-    border: 1.5px solid var(--text-color);
-    border-radius: 7px;
+.countdown-item {
+    flex-grow: 4;
+    border: 1px solid var(--countdown-border);
+    border-radius: 5px;
+    margin-bottom: 80px;
 }
 
 .style-countdown {
     font-family: Bebas Neue,cursive;
     font-size: 36px;
-    text-align: center;
-    padding-top: 15px;
+    font-weight: 400;
 }
 
 .countdown-text {
@@ -93,6 +94,12 @@
     color: var(--font-color-background);
     opacity: .54;
     text-align: center;
+}
+
+.style-countdown, .countdown-text {
+    color: inherit;
+    fill: currentColor;
+    text-anchor: middle;
 }
 
 .banner-sport-girl {
@@ -117,10 +124,6 @@
         font-size: 20px;
 
     }
-    .left {
-        height: 70px;
-        width: 70px;
-    }
     .deal-of-the-month__inner-text {
         padding: 40px 60px 40px 60px;
         line-height: 1.1;
@@ -129,12 +132,6 @@
     .deal-of-the-month__title .point {
         font-family: 'Bebas Neue', cursive;
         font-size: 93px;
-    }
-    .style-countdown {
-        font-size: 20px;
-    }
-    .countdown-text {
-        font-size: 16px;
     }
     .banner-sport-girl {
         background-position: 5% 22%;
@@ -149,18 +146,6 @@
         font-size: 124px;
     }
 
-    .left {
-        height: 90px;
-        width: 90px;
-    }
-
-    .style-countdown {
-        font-size: 32px;
-    }
-
-    .countdown-text {
-        font-size: 16px;
-    }
     .deal-of-the-month__inner-text {
         padding: 40px 70px 40px 70px;
         line-height: 1.1;

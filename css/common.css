@@ -10,6 +10,7 @@
     --light-color:rgb(224, 224, 224);
     --main-color:rgb(34, 35, 35);
     --text-color: rgb(113, 116, 116);
+    --countdown-border:#9b9b9b;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
