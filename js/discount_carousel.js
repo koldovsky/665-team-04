@@ -4,21 +4,21 @@
                     <div class="discount__position-text"><p>
                         20% OFF ALL T-SHIRTS
                     </p>
-                    <a href="#"><p class="discount__link-text">Shop Collection →</p></a>    
+                    <a href="#sale"><p class="discount__link-text">Shop Collection →</p></a>    
                     </div>
                     </div>`,
                     `<div class="discount__position jeckets">
                     <div class="discount__position-text"><p>
                         30% OFF ALL JACKETS
                     </p>
-                    <a href="#"><p class="discount__link-text">Shop Collection →</p></a>    
+                    <a href="#sale"><p class="discount__link-text">Shop Collection →</p></a>    
                     </div>
                     </div>`,
                     `<div class="discount__position trainers">
                     <div class="discount__position-text"><p>
                         25% OFF ALL TRAINERS
                     </p>
-                    <a href="#"><p class="discount__link-text">Shop Collection →</p></a>    
+                    <a href="#sale"><p class="discount__link-text">Shop Collection →</p></a>    
                     </div>
                     </div>`
 
@@ -43,6 +43,6 @@
         
 }
     showCurrentSlide();
-    setInterval(showNextSlide, 3000);
+    setInterval(showNextSlide, 300000);
     window.addEventListener('resize', showCurrentSlide);
 })();
