@@ -130,19 +130,13 @@
 	min-height: 600px;
 }}
 
- .jeckets{
+.jeckets{
  	background-image: url(../img/discount-jeckets.jpg);
 	background-size:cover;
 	min-height: 200px;
     padding: 10px;
 	margin: 10px;
  }
- @media (min-width: 767px){.jeckets{
-	
-}}
-@media (min-width: 900px){.jeckets{
-	
-}}
 .trainers{
 	background-image: url(../img/discount-trainers.jpg);
 	background-size:cover;
@@ -150,12 +144,6 @@
     padding: 10px;
 	margin: 10px;
 }
-@media (min-width: 767px){.trainers{
-
-}}
-@media (min-width: 900px){.trainers{
-
-}}
  .discount__positon{
  	display: grid;
  	grid-template-columns: 1fr 1fr 1fr;
@@ -183,15 +171,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;	
 
-}}
-.discount__link_carusel{
-	
-}
-@media (min-width: 767px){.discount__link_carusel{
-	
-}}
-@media (min-width: 900px){.discount__link_carusel{
-	
 }}
 .link_text{
 	text-decoration: none;

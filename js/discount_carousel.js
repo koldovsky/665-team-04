@@ -43,6 +43,6 @@
         
 }
     showCurrentSlide();
-    setInterval(showNextSlide, 300000);
+    setInterval(showNextSlide, 3000);
     window.addEventListener('resize', showCurrentSlide);
 })();
