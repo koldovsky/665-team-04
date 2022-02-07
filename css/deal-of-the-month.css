@@ -59,10 +59,8 @@
     text-decoration:underline;
 }
 
-.arrow {
-    display: inline;
-    height: 24px;
-    width: 24px;
+.arrow-span {
+    text-decoration: none;
 }
 
 .countdown {

@@ -28,8 +28,22 @@
   padding: 0px 24px 0px 24px;
 }
 
+.mid-season-sale-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .mid-season-sale-list-item {
   margin: 20px 15px 20px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.mid-season-sale-img {
+  height: 100%;
+  width: 100%;
 }
 
 .mid-season-sale-link {
@@ -62,4 +76,38 @@
 
 .button-add:hover {
   background-color: var(--accent-color);
+}
+
+@media(min-width: 540px) {
+
+  .mid-season-sale-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: end;
+  }
+
+  .last-item {
+    grid-area: 3/1/4/3;
+  }
+}
+
+@media(min-width: 770px) {
+
+  .mid-season-sale-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: end;
+  }
+  
+}
+
+@media(min-width: 1024px) {
+
+  .mid-season-sale-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }

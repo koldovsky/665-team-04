@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     border: 2px solid var(--light-color);
-    height: 300px;
+    min-height: 250px;
     box-sizing: border-box;
 }
 
