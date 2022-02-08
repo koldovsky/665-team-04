@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/discount.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/splide.min.css">
     <title>Sport Clothes Store</title>
 </head>
 
@@ -27,7 +27,8 @@
 
         </div>
         <nav class="header__nav">
-            <div class="burger" id="burger">
+            <div class="burger">
+                <span></span>
                 <img src="img/burger.jpg" alt="burger-icon">
             </div>
             <div class="header__logo-nav-links-container">
@@ -51,16 +52,23 @@
             </div>
 
         </nav>
-        <div class="navigate-wrapper hide">
+        <div class="navigate-wrapper">
             <div class="navigator-pages header__nav-links">
-                <a href="#about-us" class="">About us.</a>
-                <a href="#sale">Sale.</a>
-                <a href="#collection">Collection.</a>
-                <a href="#blog">Blog.</a>
-                <a href="#contact-us">Contact us.</a>
+                <a href="#about-us" class="navigation__link">About us.</a>
+                <a href="#sale" class="navigation__link">Sale.</a>
+                <a href="#collection" class="navigation__link">Collection.</a>
+                <a href="#blog" class="navigation__link">Blog.</a>
+                <a href="#contact-us" class="navigation__link">Contact us.</a>
                 <p>We’ve extended our returns period to 30 days.</p>
                 <a href="mailto:workout@email.com" class="header__top-row-link">workout@email.com</a>
                 <a href="tel:+12345678900" class="header__top-row-link">+1 (234) 567 89 00</a>
+            </div>
+            <div class="navigation-icon">
+                <a target="_blank" href="https://www.facebook.com" class="ico"><i
+                        class="fab fa-facebook-square"></i></a>
+                <a target="_blank" href="https://www.instagram.com" class="ico"><i
+                        class="fab fa-instagram-square"></i></a>
+                <a target="_blank" href="https://www.youtube.com" class="ico"><i class="fab fa-youtube-square"></i></a>
             </div>
         </div>
     </header>
@@ -207,43 +215,54 @@
     <!--Olena Sections "About us" end-->
     <!--Mid season sale start-->
     <div class="mid-season-sale" id="sale">
-        <h2 class="text-content">Mid-season sale<span class="red-heading">.</span></h2>
-        <div class="line"></div>
-        <p class="mid-season-sale-about">Shop clothes and trainers that are chosen by thousands of our clients. Click on
-            the image to see the product details and click Add to Cart to make the purchase. We are committed to give
-            you the best buying experience!</p>
+        <div class="mid-season-sale__inner-text">
+            <h2 class="text-content">Mid-season sale<span class="red-heading">.</span></h2>
+            <div class="line"></div>
+            <p class="mid-season-sale-about">Shop clothes and trainers that are chosen by thousands of our clients. Click on
+                the image to see the product details and click Add to Cart to make the purchase. We are committed to give
+                you the best buying experience!</p>
+        </div>
         <div class="mid-season-sale-list">
             <div class="mid-season-sale-list-item">
-                <img src="img/adidas-cloudfoam-trainers.jpg" alt="Adidas Trainers" class="mid-season-sale-img">
+                <div class="mid-season-sale-img">
+                    <img src="img/adidas-cloudfoam-trainers.jpg" alt="Adidas Trainers">
+                </div>
                 <a class="mid-season-sale-link-shop" href="#"></a>
                 <p class="mid-season-sale-link">Adidas Cloudfoam Trainers</p>
                 <p class="mid-season-sale-price">$60,00</p>
                 <button class="button-add">Add to Cart</button>
             </div>
             <div class="mid-season-sale-list-item">
-                <img src="img/reebok-workout-shorts.jpg" alt="Girl wearing blue shorts" class="mid-season-sale-img">
+                <div class="mid-season-sale-img">
+                    <img src="img/reebok-workout-shorts.jpg" alt="Girl wearing blue shorts">
+                </div>
                 <a class="mid-season-sale-link-shop" href="#"></a>
                 <p class="mid-season-sale-link">Reebok Workout Shorts</p>
                 <p class="mid-season-sale-price">$25,00</p>
                 <button class="button-add">Add to Cart</button>
             </div>
             <div class="mid-season-sale-list-item">
-                <img src="img/puma-fitness-shoes-in-grey.jpg" alt="Grey Puma trainers" class="mid-season-sale-img">
+                <div class="mid-season-sale-img">
+                    <img src="img/puma-fitness-shoes-in-grey.jpg" alt="Grey Puma trainers">
+                </div>
                 <a class="mid-season-sale-link-shop" href="#"></a>
                 <p class="mid-season-sale-link">Puma Fitness Shoes in Grey</p>
                 <p class="mid-season-sale-price">$60,00</p>
                 <button class="button-add">Add to Cart</button>
             </div>
             <div class="mid-season-sale-list-item">
-                <img src="img/puma-essential-tank-top.jpg" alt="Man wearing black t-shirt" class="mid-season-sale-img">
+                <div class="mid-season-sale-img two-last-item-img">
+                    <img src="img/puma-essential-tank-top.jpg" alt="Man wearing black t-shirt">
+                </div>
                 <a class="mid-season-sale-link-shop" href="#"></a>
                 <p class="mid-season-sale-link">Puma Essential Tank Top</p>
                 <p class="mid-season-sale-price">$43,00</p>
                 <button class="button-add">Add to Cart</button>
             </div>
-            <div class="mid-season-sale-list-item">
-                <img src="img/nike-classic-polo-t-shirt.jpg" alt="Man wearing white polo t-shirt"
-                    class="mid-season-sale-img">
+            <div class="mid-season-sale-list-item two-last-item-img last-item">
+                <div class="mid-season-sale-img last-item-img two-last-item-img">
+                    <img src="img/nike-classic-polo-t-shirt.jpg" alt="Man wearing white polo t-shirt">
+                </div>
                 <a class="mid-season-sale-link-shop" href="#"></a>
                 <p class="mid-season-sale-link">Nike Classic Polo T-Shirt</p>
                 <p class="mid-season-sale-price">$23,00</p>
@@ -261,7 +280,7 @@
                 <p class="discount__text">GET YOUR</p>
                 <p class="discount__text">DISCOUNT<span id="discount__special">.</span></p>
                 </div>
-                <div class="discount__bottom"><a class="link_text" href="#">Shop Now →</a></div>
+                <div class="discount__bottom"><a class="link_text" href="#sale">Shop Now →</a></div>
             </div>
         </div>
         <div class="discount__link_carusel">
@@ -300,23 +319,38 @@
                 <h2 class="deal-of-the-month__title">Deal of the month<span class="point">.</span></h2>
                 <div class="deal-of-the-month__promo-text">Puma sport bra <span class="special-text">$50 </span><span class="strike-text">$70</span></div>
                 <p class="deal-of-the-month__text">Start your fitness story right away with this comfortable bra and get advantage of our discount.</p>
-                <a href="#new__arrivials" class="deal-of-the-month__link">More Details <img class="arrow" src="img/arrow.svg" alt="arrow"></a>
+                <a href="#new__arrivials" class="deal-of-the-month__link">More Details <span>&#x2192;</span></a>
                 <div class="countdown">
-                    <div class="left">
-                        <div class="countdown__days style-countdown"></div>
-                        <div class="countdown-text">Days</div>
+                    <div class="countdown-item">
+                        <svg viewBox="0 0 120 120" class="countdown__content">
+                            <text id="countdown__days" data-unit="days" x="50%" y="50%"
+                                  class="style-countdown"></text>
+                            <text x="50%" y="50%" dy="28" class="countdown-text">Days</text>
+                        </svg>
                     </div>
-                    <div class="left">
-                        <div class="countdown__hours style-countdown"></div>
-                        <div class="countdown-text">Hours</div>
+                    <div class="countdown__separator"></div>
+                    <div class="countdown-item">
+                        <svg viewBox="0 0 120 120" class="countdown__content">
+                            <text id="countdown__hours" data-unit="hours" x="50%" y="50%"
+                                  class="style-countdown"></text>
+                            <text x="50%" y="50%" dy="28" class="countdown-text">Hours</text>
+                        </svg>
                     </div>
-                    <div class="left">
-                        <div class="countdown__minutes style-countdown"></div>
-                        <div class="countdown-text">Minutes</div>
+                    <div class="countdown__separator"></div>
+                    <div class="countdown-item">
+                        <svg viewBox="0 0 120 120" class="countdown__content">
+                            <text id="countdown__minutes" data-unit="minutes" x="50%" y="50%"
+                                  class="style-countdown"></text>
+                            <text x="50%" y="50%" dy="28" class="countdown-text">Minutes</text>
+                        </svg>
                     </div>
-                    <div class="left">
-                        <div class="countdown__seconds style-countdown"></div>
-                        <div class="countdown-text">Seconds</div>
+                    <div class="countdown__separator"></div>
+                    <div class="countdown-item">
+                        <svg viewBox="0 0 120 120" class="countdown__content">
+                            <text id="countdown__seconds" data-unit="seconds" x="50%" y="50%"
+                                  class="style-countdown"></text>
+                            <text x="50%" y="50%" dy="28" class="countdown-text">Seconds</text>
+                        </svg>
                     </div>
                 </div>
             </div>
@@ -426,14 +460,36 @@
     <!-- Pavel Shapovalenko block end-->
 
     <!--Olena Sections "Blog" start-->
-    <div class="images__carousel">
-        <button class="images__carousel-back images__carousel-button">
-            <img class="arrow-button" src="img/arrow-back.png" alt="Arrow back">
-        </button>
-        <div class="images__carousel-slide-container"></div>
-        <button class="images__carousel-forward images__carousel-button">
-            <img class="arrow-button arrow-forward" src="img/arrow-back.png" alt="Arrow forward">
-        </button>
+    <div class="splide">
+        <div class="splide__track">
+            <ul class="splide__list">
+                <li class="splide__slide">
+                    <div class="slider__brand">
+                    <img src="img/logo-new-balance.svg" alt="Logo New Balance">
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="slider__brand">
+                    <img src="img/logo-reebok.svg" alt="Logo Reebok">
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="slider__brand">
+                    <img src="img/logo-adidas.svg" alt="Logo Adidas">
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="slider__brand">
+                        <img src="img/logo-nike.svg" alt="Logo Nike">
+                    </div>
+                </li>
+                <li class="splide__slide">
+                    <div class="slider__brand">
+                        <img src="img/logo-asics.svg" alt="Logo Asics">
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
     <section id="blog">
         <div class="blog">
@@ -551,12 +607,12 @@
             </div>
         </div>
     </footer>
-    <script src="js/bootstrap.js"></script>
     <script src="js/burger-menu.js"></script>
     <script src="js/countdown.js"></script>
+    <script src="js/splide.min.js"></script>
     <script src="js/carousel.js"></script>
     <script src="js/new-arrivials-carousel.js"></script>
-    <script type="text/javascript" src="discount_script.js"></script>
+    <script type="text/javascript" src="js/discount_carousel.js"></script>
 </body>
 
 </html>
