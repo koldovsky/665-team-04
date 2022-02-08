@@ -83,3 +83,17 @@
 	color: rgb(255, 255, 255); 
 	background-color: var(--accent-color);
 }
+
+@media (min-width: 1020px) {
+
+#new__arrivials {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.new__arrivials__top {
+    width: 30%;
+}
+    
+}
