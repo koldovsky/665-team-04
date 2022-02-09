@@ -73,3 +73,17 @@
 
   })();
   
+
+
+// const buttonBack = document.getElementById('slide__back');
+
+// buttonBack.onclick = function () {
+//   document.getElementById('container').scrollLeft += 100;
+// };
+
+
+// const buttonForward = document.getElementById('slide__forward');
+
+// buttonForward.onclick = function () {
+//   document.getElementById('container').scrollLeft -= 100;
+// };
