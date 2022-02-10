@@ -101,6 +101,12 @@
 }
 
 @media (min-width: 1020px) {
+    
+    .original__brands {
+        background: url(../img/original-brands-background.webp) no-repeat center ;
+         background-size: cover;
+         height: 600px;
+        }
 
     .original__brands__wrapper {
         display: block;

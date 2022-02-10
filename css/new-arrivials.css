@@ -1,15 +1,18 @@
 #new__arrivials {
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
+    padding: 80px 24px 0px 24px;
 }
+.new__arrivials__top {
+    padding-left: 47px;
+}
+
 .new__arrivials__top__header {
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
     font-size: 38px;
     font-weight: 400;
     color: var(--main-color); 
-    margin-left: 1rem;
 }
 
 .point {
@@ -23,14 +26,13 @@
     border-top: 2px solid rgb(224, 224, 224);
     padding: 10px 0;
     width: 33%;
-    margin-left: 1rem;
+    margin-left: 0!important;
 }
 
 .new__arrivials__top__text {
     font-family: "PT Sans", sans-serif;
     font-size: 20px;
     color: var(--text-color); 
-    margin-left: 1rem;
 }
 
 .new__arrivials__button {
@@ -41,12 +43,11 @@
     border: 2px solid;
     padding: 1rem;
     background-color: white;
-    margin: 1rem;
+    margin: 1rem 0;
 }
-
-.new__arrivials__preview-img {
-    height: 200px;
-    width: 200px;
+.new__arrivials__button:hover {
+	color: rgb(255, 255, 255); 
+	background-color: var(--main-color);
 }
 
 .new__arrivials__link__shop{
@@ -62,26 +63,25 @@
 }
 
 .new__arrivials__carousel {
-    width: 300px;
-    height: 400px;
-    border: 1px solid #ccc;
+    position: relative;
+    border: 1px solid rgb(194, 61, 61);
+    width: 100%;
 }
 
 .new__arrivials__carousel__img {
     display: flex;
     flex-direction: row;
-    width: 100px;
-    height: 100px;
 }
 
 .new__arrivials__product {
-    width: 450px;
-    height: 300px;
     border: 1px solid #ccc;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px 10px;
+
+}
+
+.new__arrivials__preview-img {
+    height: 350px;
+    width: 100%;
 }
 
 .new__arrivials__price {
@@ -100,6 +100,8 @@
     padding: 1rem;
     background-color: var(--main-color); 
     border:none;
+    margin-top: 15px;
+    z-index: 10;
 }
 
 .new__arrivials__carousel__button__add:hover {
@@ -109,19 +111,55 @@
 
 .new__arrivials__carousels__button__move {
     display: flex;
+    position: absolute;
     justify-content: space-between;
+    top: 40%;
+    width: 100%;
+}
+.new__arrivials__carousels__button__move svg{
+    fill: #000;
+    height: 1.2em;
+    width: 1.2em;
+}
+.new__arrivials__carousels__button__back svg {
+    transform: scaleX(-1);
+}
+.new__arrivials__carousels__button__back  {
+    background: #ccc;
+    border: 0;
+    border-radius: 50%;
+    display: flex;
+    height: 2em;
+    justify-content: center;
+    opacity: .7;
+    padding: 0;
+    align-items: center;
+    width: 2em;
+}
+
+.new__arrivials__carousels__button__forward  {
+    background: #ccc;
+    border: 0;
+    border-radius: 50%;
+    display: flex;
+    height: 2em;
+    justify-content: center;
+    opacity: .7;
+    padding: 0;
+    align-items: center;
+    width: 2em;
 }
 
 @media (min-width: 1020px) {
 
 #new__arrivials {
     display: flex;
-    align-items: center;
     flex-direction: row;
 }
 
 .new__arrivials__top {
     width: 30%;
+    padding-right: 50px;
 }
 
     
