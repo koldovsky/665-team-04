@@ -4,15 +4,15 @@
     padding-left: 30px;
     padding-right: 30px;
     background-position: 90% 50%;
-    height: 650px;
+    height: 540px;
 }
 
 .original__brands__wrapper {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .original__brands__top {
@@ -26,13 +26,15 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 62px;
     color: rgb(255, 255, 255);
-    font-weight: 400; 
+    font-weight: 400;
+    line-height: 0.9em;
 }
 
 .original__brands__advantages__point {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
+
 .original__brands__advanteg {
     display: flex;
     flex-direction: row;
@@ -50,46 +52,119 @@
     font-family: "PT Sans", sans-serif;
     font-size: 16px;
     color: rgb(255, 255, 255);
-    font-weight: bold;  
+    font-weight: bold;
 }
 
 .original__brands__bottom {
     font-family: "PT Sans", sans-serif;
     font-size: 20px;
     color: rgb(255, 255, 255);
-    font-weight: 400;  
-    margin-top: 1em;   
+    font-weight: 400;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .original__brands__button {
-    width: 120px;
-    height: 40px;
-    border: 2px solid rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1em;
+    margin-top: 50px;
 }
 
-.original__brands__link__text {
+.original__brands__link {
     font-family: "PT Sans", sans-serif;
     font-size: 16.5px;
     font-weight: 700;
-    color:rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 15px 15px;
 }
-@media (min-width: 780px) {
+
+
+.original__brands__link:hover {
+    background-color: rgb(255, 255, 255);
+    color: var(--main-color);
+}
+
+@media (min-width: 750px) {
     .original__brands__wrapper {
-        display: block;
-        margin-left: 40%;
-        margin-right: auto;
-        align-items: flex-end;
+        padding-top: 100px;
     }
+
     .original__brands__advantages__point {
         grid-template-columns: 1fr 1fr 1fr;
         width: 80%;
         justify-content: space-between;
     }
+
     .original__brands__header {
         font-size: 96px;
+        padding-top: 15px;
+        line-height: 0.9em;
     }
+
+    .original__brands__button {
+        margin-top: 40px;
+    }
+
+}
+
+@media (min-width: 1020px) {
+
+    .original__brands {
+        background: url(../img/original-brands-background.webp) no-repeat center;
+        background-size: cover;
+        height: 600px;
+    }
+
+    .original__brands__wrapper {
+        display: block;
+        margin-left: 40%;
+        margin-right: auto;
+        align-items: flex-end;
+        padding-top: 20px;
+        padding-bottom: 120px;
+    }
+
+    .original__brands__header {
+        font-size: 124px;
+        line-height: 0.9em
+    }
+
+    .new__arrivials__top {
+        width: 30%;
+    }
+
+    .original__brands__advantages__point {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .original__brands__button {
+        margin-top: 20px;
+        text-decoration: none;
+    }
+    .original__brands__button {
+        margin-top: 50px;
+    }
+
+}
+
+@media (min-width: 1750px) {
+
+    .original__brands {
+        background: url(../img/original-brands-background.webp) no-repeat center;
+        background-size: cover;
+        height: 600px;
+    }
+
+    .original__brands__wrapper {
+        display: block;
+        margin-left: 45%;
+        margin-right: auto;
+        align-items: flex-end;
+        padding-top: 60px;
+        padding-bottom: auto;
+        width: 30%;
+    }
+
 }
