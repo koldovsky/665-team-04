@@ -107,12 +107,33 @@
 }
 
 .footer__bottom-row-text {
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     font-family: Bebas Neue, cursive;
     font-size: 13px;
     text-align: center;
     text-transform: uppercase;
+}
+.currencies {
+    margin-bottom: 20px;
+}
+
+.currencies a {
+    text-decoration: none;
+    color: var(--font-color-background);
+    font-family: PT Sans, sans-serif;
+    font-size: 15px;
+}
+
+.currencies__divider {
+    color: var(--accent-color);
+}
+
+.footer__nav-links .divider-line {
+    width: 70%;
+}
+
+.footer__nav-icons .divider-line {
+    width: 70%;
 }
 
 @media (min-width: 720px) {
@@ -173,5 +194,13 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+
+    .currencies a {
+        display: inline;
+    }
+
+    .currencies__divider {
+        font-weight: bold;
     }
 }
