@@ -79,10 +79,17 @@
 
     showCurrentSlide();
 
-    document.querySelector('.new__arrivials__carousels__button__forward').addEventListener('click', showNextSlide);
+    document.querySelector('.new__arrivials__carousels__button__forward')
+        .addEventListener('click', showNextSlide);
+
+    document.querySelector('.new__arrivials__carousels__button__forward')
+        .addEventListener('click', convertPrice);
 
     document.querySelector('.new__arrivials__carousels__button__back')
         .addEventListener('click', showPrevSlide);
+
+    document.querySelector('.new__arrivials__carousels__button__back')
+        .addEventListener('click', convertPrice);
 
 
     window.addEventListener('resize', showCurrentSlide);
