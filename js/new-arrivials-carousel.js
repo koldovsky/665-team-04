@@ -59,7 +59,7 @@
                 const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
                 slideContainer.innerHTML += slides[thirdSlideIdx];
 
-                if (window.innerWidth >= 1200) {
+                if (window.innerWidth >= 1350) {
                     const fourthSlideIdx = thirdSlideIdx + 1 >= slides.length ? 0 : thirdSlideIdx + 1;
                     slideContainer.innerHTML += slides[fourthSlideIdx];
                 }
