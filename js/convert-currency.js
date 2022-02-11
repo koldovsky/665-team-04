@@ -1,4 +1,4 @@
-(function() {
+
     let elements = document.querySelectorAll('.currency');
     for (let element of elements) {
         element.addEventListener('click',convertPrice );
@@ -48,4 +48,3 @@
 
         }
     }
-})();
