@@ -70,11 +70,13 @@
     function showNextSlide() {
         currentSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
         showCurrentSlide();
+        convertPrice();
     }
 
     function showPrevSlide() {
         currentSlideIdx = currentSlideIdx - 1 < 0 ? slides.length - 1 : currentSlideIdx - 1;
         showCurrentSlide();
+        convertPrice();
     }
 
     showCurrentSlide();

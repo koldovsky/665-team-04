@@ -32,15 +32,7 @@
   margin: 50px 40px 100px 40px;
 }
 
-.mid-season-sale-list-item {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: flex-start;
-}
-
 .mid-season-sale-img {
-  height: 100%;
   width: 100%;
 }
 
@@ -51,6 +43,7 @@
   color: var(--text-color);
   margin-top: 24px;
   padding-right: 10px;
+  min-height: 48px;
 }
 
 .mid-season-sale-price {
@@ -83,15 +76,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: stretch;
   }
 
   .mid-season-sale-list-item {
     flex-grow: 1;
     flex-basis: 45%;
     align-items: start;
-    justify-content: flex-start;
   }
 }
 
