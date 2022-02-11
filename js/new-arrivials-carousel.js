@@ -43,7 +43,6 @@
                       <p class="new__arrivials__price price">$60,00</p>
                       <button class="new__arrivials__carousel__button__add">Add to Cart</button>
                   </div>`
-
     ];
 
     let currentSlideIdx = 0;
@@ -91,7 +90,6 @@
 
     document.querySelector('.new__arrivials__carousels__button__back')
         .addEventListener('click', convertPrice);
-
 
     window.addEventListener('resize', showCurrentSlide);
 
