@@ -69,13 +69,14 @@
     width: 100%;
 }
 
-.new__arrivials__carousel-slide-container {
+.new__arrivials__carousel__img {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .new__arrivials__product {
+    border: 1px solid #ccc;
     margin: 10px 10px;
 
 }
@@ -139,7 +140,6 @@
     padding: 0;
     align-items: center;
     width: 2em;
-    margin-left: 20px;
 }
 
 .new__arrivials__carousels__button__forward {
@@ -153,7 +153,6 @@
     padding: 0;
     align-items: center;
     width: 2em;
-    margin-right: 25px;
 }
 
 .adidas__black__trainers {
@@ -218,7 +217,7 @@
         padding-right: 50px;
     }
 
-    .new__arrivials__carousel-slide-container {
+    .new__arrivials__carousel__img {
         justify-content: space-between;
     }
 
