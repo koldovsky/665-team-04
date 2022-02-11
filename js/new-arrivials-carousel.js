@@ -6,7 +6,7 @@
                       <a class="new__arrivials__link__shop" href="#">
                           <p class="new__arrivials__link">Adidas Black Trainers</p>
                       </a>
-                      <p class="new__arrivials__price price">$60.00</p>
+                      <p class="new__arrivials__price price">$60,00</p>
                       <button class="new__arrivials__carousel__button__add">Add to Cart</button>
                   </div>`,
         `<div class="asics__jordan">
@@ -14,7 +14,7 @@
                       <a class="new__arrivials__link__shop" href="#">
                           <p class="new__arrivials__link">asics jordan 2000</p>
                       </a>
-                      <p class="new__arrivials__price price">$200.00</p>
+                      <p class="new__arrivials__price price">$200,00</p>
                       <button class="new__arrivials__carousel__button__add">Add to Cart</button>
                   </div>`,
         `<div class="nike__winter__jacket">
@@ -23,7 +23,7 @@
                       <a class="new__arrivials__link__shop" href="#">
                           <p class="new__arrivials__link">Nike Winter Jacket in Blue</p>
                       </a>
-                      <p class="new__arrivials__price price">$85.00</p>
+                      <p class="new__arrivials__price price">$85,00</p>
                       <button class="new__arrivials__carousel__button__add">Add to Cart</button>
                   </div>`,
         `<div class="puma__textile__runnig">
@@ -32,7 +32,7 @@
                       <a class="new__arrivials__link__shop" href="#">
                           <p class="new__arrivials__link">Puma Textile Runnig Shoes</p>
                       </a>
-                      <p class="new__arrivials__price price">$62.00</p>
+                      <p class="new__arrivials__price price">$62,00</p>
                       <button class="new__arrivials__carousel__button__add">Add to Cart</button>
                   </div>`,
         `<div class="reebok__red__dusters">
@@ -40,7 +40,7 @@
                       <a class="new__arrivials__link__shop" href="#">
                           <p class="new__arrivials__link">Reebok Red Duster</p>
                       </a>
-                      <p class="new__arrivials__price price">$60.00</p>
+                      <p class="new__arrivials__price price">$60,00</p>
                       <button class="new__arrivials__carousel__button__add">Add to Cart</button>
                   </div>`
 
