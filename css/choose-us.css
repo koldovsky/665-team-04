@@ -6,12 +6,10 @@
     display: block;
     box-sizing: border-box;
     margin: auto;
+    max-width: 1200px;
     width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px 15px;
     text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .choose-us__header {
     display: flex;
@@ -52,6 +50,7 @@
     justify-content: center;
     border: 2px solid #e0e0e0; 
     margin: 5px;
+    min-width: 240px;
     padding: 30px 20px;
 }
 .choose-us__grid-inner {
@@ -68,6 +67,7 @@
     .choose-us__grid-inner {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
 }
 }
 .choose-us__icon {
