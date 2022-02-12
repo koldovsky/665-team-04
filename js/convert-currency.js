@@ -45,7 +45,6 @@
         } else if (event.currentTarget.innerText === 'EUR') {
             currentCurrency = 'EUR';
         }
-        currentCurrency;
         convertPrice();
     }
 
