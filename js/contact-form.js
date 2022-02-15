@@ -15,6 +15,7 @@
         let status = document.getElementById("status");
         let re = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
         if (re.test(str)) {
+            myModal.show();
             await fetch(form.action, {
                 method: form.method,
                 body: data,
@@ -26,7 +27,6 @@
             document.getElementById('status').hidden = true;
             form.reset();
             statusModal.innerText = "We will contact you shortly.";
-            myModal.show();
         } else {
             status.innerText = "Please typing correct email address";
             el.classList.add('subscription__form-mail-incorrect');
