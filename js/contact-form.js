@@ -6,21 +6,40 @@
 
     async function handleSubmit(event) {
         event.preventDefault();
-        let status = document.querySelector('#modal-text');
+        let statusModal = document.querySelector('#modal-text');
         const form = document.querySelector('.subscription__form');
         const data = new FormData(form);
-        status.innerText = "Wait! Your data is being sent";
-        await fetch(form.action, {
-            method: form.method,
-            body: data,
-            headers: {
-                'Accept': 'application/json'
+        statusModal.innerText = "Wait! Your data is being sent";
+        let str = document.getElementById("email").value;
+        let el = document.getElementById("email");
+        let status = document.getElementById("status");
+        let re = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
+        if (re.test(str)) {
+            await fetch(form.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
                 }
-        });
-        form.reset();
-        status.innerText = "We will contact you shortly.";
-        myModal.show();
+            });
+            el.classList.remove('subscription__form-mail-incorrect');
+            document.getElementById('status').hidden = true;
+            form.reset();
+            statusModal.innerText = "We will contact you shortly.";
+            myModal.show();
+        } else {
+            status.innerHTML = "Please typing correct email address";
+            el.classList.add('subscription__form-mail-incorrect');
+        }
+        if(postEmpty(str)) {
+            statusModal.innerHTML = "Please typing email address";
+        }
     }
+
+    function postEmpty(str){
+        return (str == null) || (str.length == 0);
+    }
+
     document.querySelector('.subscription__button').addEventListener('click', handleSubmit);
 
 }) ();

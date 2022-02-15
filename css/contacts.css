@@ -108,6 +108,15 @@ input {
     font-size: 15px;
 }
 
+.status-email-address {
+    font-family: PT Sans,sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.subscription__form-mail-incorrect {
+    border: 3px solid red;
+}
 .subscription__button {
     width: 100%;
     margin-top: 24px;
