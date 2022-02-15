@@ -21,6 +21,7 @@
 .choose-us-header__divider {
     display: flex;
     justify-content: center;
+    margin: 15px 0;
 }
 .choose-us__divider {
     display: block;
@@ -54,12 +55,13 @@
 }
 .choose-us__grid-inner {
     box-sizing:border-box;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 @media (min-width: 767px) {
     .choose-us__grid-inner {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 10px;
 }
 }
 @media (min-width: 900px) {
@@ -81,4 +83,10 @@
 }
 .choose-us__box-text {
     margin-top: 15px;
+}
+.choose-us__paragraph {
+    font-size: 20px;
+    font-family: PT Sans,sans-serif;
+    font-weight: 400;
+    color: #717474;
 }
