@@ -24,9 +24,50 @@
     padding-bottom: 70px;
 }
 
-.image-size {
+.image-envelope {
     width: 50px;
 }
+
+.image-accept {
+    width: 34px;
+    height: 34px;
+    overlay-bg-color: #f2f4f7;
+    box-shadow: 0 1px 20px 0 rgba(100,110,130,0.16);
+}
+
+.modal-img {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 30px 0;
+}
+
+.modal-title {
+    width: 100%;
+}
+.form__modal-title {
+    font-family: Bebas Neue,cursive;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.form__modal-text {
+    color: var(--text-color);
+    font-size: 14px;
+    line-height: 1.43;
+    font-family: PT Sans,sans-serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.btn-accept {
+    padding: 7px 100px !important;
+    text-align: center;
+    margin-bottom: 50px !important;
+}
+
 
 input {
     box-sizing: border-box;

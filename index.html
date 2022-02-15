@@ -661,19 +661,35 @@
         <div class="subscription__empty"></div>
         <div class="subscription__conditions">
             <div class="subscription__conditions-image">
-                <img class="image-size" src="img/envelope.svg" alt="Envelope">
+                <img class="image-envelope" src="img/envelope.svg" alt="Envelope">
             </div>
             <div class="subscription__conditions-text"><span class="accent-color">10%</span> Off your first order.
                 Sign up to our newsletter to get this special offer.</div>
         </div>
         <div class="form-info">
-            <form class="subscription__form" method="post" action="https://formspree.io/f/xjvlgywn">
+            <form id="subscription__form" class="subscription__form" method="post" action="https://formspree.io/f/xjvlgywn">
                 <label class="subscription__form-text">
                     <input class="subscription__form-mail" type="text" name="user-mail" placeholder="Your email address"
                         required>
                 </label>
                 <button class="subscription__button" type="submit">Subscribe</button>
             </form>
+            <div class="modal fade" id="form__modal-subscription" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content  form__modal-content">
+                        <div class="modal-header">
+                            <div class="modal-title" id="modal-title">
+                                <div class="modal-img"><img class="image-accept" src="img/accept-sign.svg" alt="Accept sign"></div>
+                                <div class="form__modal-title">Thank you!</div>
+                            </div>
+                        </div>
+                        <div id= "modal-text" class="modal-body form__modal-text"></div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary btn-accept" data-bs-dismiss="modal">Ok</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div id="contacts" class="contacts">
@@ -777,6 +793,8 @@
     <script type="text/javascript" src="js/discount_carousel.js"></script>
     <script src="js/convert-currency.js"></script>
     <script src="js/main-collection.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/contact-form.js"></script>
 </body>
 
 </html>
