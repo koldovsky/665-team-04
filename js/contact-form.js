@@ -28,11 +28,11 @@
             statusModal.innerText = "We will contact you shortly.";
             myModal.show();
         } else {
-            status.innerHTML = "Please typing correct email address";
+            status.innerText = "Please typing correct email address";
             el.classList.add('subscription__form-mail-incorrect');
         }
         if(postEmpty(str)) {
-            statusModal.innerHTML = "Please typing email address";
+            status.innerText = "Please typing email address";
         }
     }
 
