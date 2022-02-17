@@ -44,14 +44,13 @@ img {
     padding-top: 40px;
     padding-bottom: 30px;
     margin: auto;
-    width: 80%;
 }
 .wear-section {
     display: block;
     box-sizing: border-box;
     margin: 0 auto;
     width: 100%;
-    padding: 25px 0;
+    padding: 25px 24px;
 }
 .new__arrivials__divider {
     border-top: 2px solid rgb(224, 224, 224);
@@ -67,7 +66,7 @@ img {
     max-width: 1200px;
     width: 100%;
 }
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .wear-section_grid-top {
         box-sizing:border-box;
         grid-template-columns: 2fr 1fr 1fr;
@@ -75,13 +74,22 @@ img {
         margin: auto;
         width: 100%;
     }
+    .wear-section {
+        padding: 0 32px;
+    }
+    .choose-us {
+        padding: 0 32px;
+    }
     .wear-section__h2 {
         font-size: 45px;
     }
 }
 @media (min-width: 990px) {
-    .wear-section .choose-us {
-        padding: 0 24px;
+    .wear-section {
+        padding: 0 40px;
+    }
+    .choose-us {
+        padding: 0 40px;
     }
     .wear-section__h2 {
         font-size: 52px;
