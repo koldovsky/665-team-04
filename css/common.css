@@ -75,12 +75,19 @@ img {
         margin: auto;
         width: 100%;
     }
+    .wear-section__h2 {
+        font-size: 45px;
+    }
 }
 @media (min-width: 990px) {
     .wear-section .choose-us {
         padding: 0 24px;
     }
+    .wear-section__h2 {
+        font-size: 52px;
+    }
 }
+
 .wear-section__block {
     display: block;
     box-sizing: border-box;
@@ -130,7 +137,7 @@ img {
     padding: 30px;
 }
 
-.h2 {
+.wear-section__h2 {
     font-family: "Bebas Neue", cursive;
     font-size: 38px;
     font-weight: 400;
