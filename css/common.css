@@ -41,7 +41,7 @@ img {
 .wear-blocks-group-wrapper {
     display: block;
     box-sizing: border-box;
-    padding-top: 40px 24px 30px;
+    padding: 40px 24px 30px;
     margin: auto;
     max-width: 1200px;
 }
@@ -82,14 +82,10 @@ img {
     }
 }
 @media (min-width: 990px) {
-    .wear-blocks-group-wrapper {
-        padding: 0 40px;
-    }
     .wear-section__h2 {
         font-size: 52px;
     }
 }
-
 .wear-section__block {
     display: block;
     box-sizing: border-box;
