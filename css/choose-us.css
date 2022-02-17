@@ -6,8 +6,9 @@
     display: block;
     box-sizing: border-box;
     margin: 0 auto;
+    max-width: 1200px;
     width: 100%;
-    padding: 25px 15px;
+    padding: 25px 0;
     text-align: center;
 }
 .choose-us__header {
