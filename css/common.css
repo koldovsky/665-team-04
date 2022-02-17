@@ -76,6 +76,11 @@ img {
         width: 100%;
     }
 }
+@media (min-width: 990px) {
+    .wear-section .choose-us {
+        padding: 0 24px;
+    }
+}
 .wear-section__block {
     display: block;
     box-sizing: border-box;
