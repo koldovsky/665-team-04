@@ -41,8 +41,7 @@ img {
 .wear-blocks-group-wrapper {
     display: block;
     box-sizing: border-box;
-    padding-top: 40px;
-    padding-bottom: 30px;
+    padding-top: 40px 24px 30px;
     margin: auto;
     max-width: 1200px;
 }
@@ -75,10 +74,7 @@ img {
         margin: auto;
         width: 100%;
     }
-    .wear-section {
-        padding: 0 32px;
-    }
-    .choose-us {
+    .wear-blocks-group-wrapper {
         padding: 0 32px;
     }
     .wear-section__h2 {
@@ -86,10 +82,7 @@ img {
     }
 }
 @media (min-width: 990px) {
-    .wear-section {
-        padding: 0 40px;
-    }
-    .choose-us {
+    .wear-blocks-group-wrapper {
         padding: 0 40px;
     }
     .wear-section__h2 {
